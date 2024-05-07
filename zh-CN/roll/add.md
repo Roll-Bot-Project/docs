@@ -8,7 +8,7 @@ description: 交互式地创建一个抽奖
 /roll add
 ```
 
-> 你也可以使用参数在一条命令内填写所有内容，详见 [shi-yong-can-shu-chuang-jian-chou-jiang.md](../gao-ji/shi-yong-can-shu-chuang-jian-chou-jiang.md "mention")
+> 你也可以使用参数在一条命令内填写所有内容，详见 [add-by-option.md](../advanced/add-by-option.md "mention")
 
 ## 快捷创建
 
@@ -30,7 +30,7 @@ description: 交互式地创建一个抽奖
 
 ### 详细描述
 
-抽奖的详细描述，将在 [cha-xun-chou-jiang-lie-biao.md](cha-xun-chou-jiang-lie-biao.md "mention") 指令中显示
+抽奖的详细描述，将在 [list.md](list.md "mention") 指令中显示
 
 回复 n 使用默认内容：<用户名> 的抽奖
 
@@ -83,9 +83,9 @@ description: 交互式地创建一个抽奖
 
 ## 权限
 
-要创建一个抽奖，你必须为 [bot-guan-li-yuan.md](../quan-xian/bot-guan-li-yuan.md "mention") 或 [pin-dao-guan-li-yuan.md](../quan-xian/pin-dao-guan-li-yuan.md "mention")
+要创建一个抽奖，你必须为 [bot-admin.md](../permission/bot-admin.md "mention") 或 [channel-admin.md](../permission/channel-admin.md "mention")
 
-如果在设置中启用了 `allowNormalUserAdd` 项，则 [pu-tong-cheng-yuan.md](../quan-xian/pu-tong-cheng-yuan.md "mention") 也可以进行创建操作
+如果在设置中启用了 `allowNormalUserAdd` 项，则 [channel-member.md](../permission/channel-member.md "mention") 也可以进行创建操作
 
 ## 本地化 & 别称
 

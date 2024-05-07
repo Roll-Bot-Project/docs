@@ -8,7 +8,7 @@ description: 加入指定的抽奖
 /roll join <抽奖编号>
 ```
 
-> 你也可以通过直接发送加入口令来加入一个抽奖，详见 [jia-ru-kou-ling.md](../gao-ji/jia-ru-kou-ling.md "mention")
+> 你也可以通过直接发送加入口令来加入一个抽奖，详见 [join-key.md](../advanced/join-key.md "mention")
 
 ## 权限
 

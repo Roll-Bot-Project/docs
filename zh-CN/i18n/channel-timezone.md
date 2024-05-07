@@ -24,13 +24,13 @@ description: 频道时区决定了频道内所有用户与 Roll Bot 交互时使
 
 ## 优先级
 
-[pin-dao-shi-qu.md](pin-dao-shi-qu.md "mention") > [yong-hu-shi-qu.md](yong-hu-shi-qu.md "mention") > [默认时区](../pei-zhi/ji-ben-she-zhi.md#defaulttimeoffset)
+[channel-timezone.md](channel-timezone.md "mention") > [user-timezone.md](user-timezone.md "mention") > [默认时区](../configuration/basic.md#defaulttimeoffset)
 
 你可以在设置中调整 `i18n.output` 项以修改这一顺序
 
 ## 权限
 
-要修改频道时区，你必须为 [bot-guan-li-yuan.md](../quan-xian/bot-guan-li-yuan.md "mention") 或 [pin-dao-guan-li-yuan.md](../quan-xian/pin-dao-guan-li-yuan.md "mention")
+要修改频道时区，你必须为 [bot-admin.md](../permission/bot-admin.md "mention") 或 [channel-admin.md](../permission/channel-admin.md "mention")
 
 ## 本地化 & 别称
 

@@ -4,7 +4,7 @@ description: 频道语言偏好决定了频道内所有用户与 Roll Bot 交互
 
 # 频道语言偏好
 
-> Roll Bot 目前支持的语言包括： `zh` `en`
+> Roll Bot 目前支持的语言包括： `zh-CN` `en-US` de-DE
 
 ```
 /roll locale -c [语言偏好]
@@ -14,13 +14,13 @@ description: 频道语言偏好决定了频道内所有用户与 Roll Bot 交互
 
 ## 优先级
 
-[pin-dao-yu-yan-pian-hao.md](pin-dao-yu-yan-pian-hao.md "mention") > [yong-hu-yu-yan-pian-hao.md](yong-hu-yu-yan-pian-hao.md "mention") > 默认语言偏好
+[channel-language-prefer.md](channel-language-prefer.md "mention") > [user-language-prefer.md](user-language-prefer.md "mention") > 默认语言偏好
 
 你可以在设置中调整 `i18n.output` 项以修改这一顺序
 
 ## 权限
 
-要修改频道语言偏好，你必须为 [bot-guan-li-yuan.md](../quan-xian/bot-guan-li-yuan.md "mention") 或 [pin-dao-guan-li-yuan.md](../quan-xian/pin-dao-guan-li-yuan.md "mention")
+要修改频道语言偏好，你必须为 [bot-admin.md](../permission/bot-admin.md "mention") 或 [channel-admin.md](../permission/channel-admin.md "mention")
 
 ## 本地化 & 别称
 

@@ -1,55 +1,58 @@
 # Table of contents
 
 * [Roll Bot](README.md)
-* [开始之前](kai-shi-zhi-qian.md)
+* [开始之前](before-start.md)
 
-## 配置
+## 基本指令 <a href="#basic" id="basic"></a>
 
-* [全局设置](pei-zhi/quan-ju-she-zhi.md)
-* [基本设置](pei-zhi/ji-ben-she-zhi.md)
-* [权限设置](pei-zhi/quan-xian-she-zhi.md)
-* [提醒设置](pei-zhi/ti-xing-she-zhi.md)
+* [查看帮助](basic/help.md)
+* [获取频道id](basic/get-channel-id.md)
 
-## 国际化
+## 抽奖 <a href="#roll" id="roll"></a>
 
-* [用户时区](guo-ji-hua/yong-hu-shi-qu.md)
-* [用户语言偏好](guo-ji-hua/yong-hu-yu-yan-pian-hao.md)
-* [频道时区](guo-ji-hua/pin-dao-shi-qu.md)
-* [频道语言偏好](guo-ji-hua/pin-dao-yu-yan-pian-hao.md)
+* [创建抽奖](roll/add.md)
+* [删除抽奖](roll/delete.md)
+* [手动开奖](roll/manual-drawing.md)
+* [加入抽奖](roll/join.md)
+* [退出抽奖](roll/quit.md)
+* [查询抽奖列表](roll/list.md)
+* [查询抽奖详情](roll/detail.md)
+* [查询成员列表](roll/member.md)
 
-## 基本指令
+## 提醒 <a href="#remind" id="remind"></a>
 
-* [帮助](ji-ben-zhi-ling/bang-zhu.md)
-* [获取频道id](ji-ben-zhi-ling/huo-qu-pin-dao-id.md)
-* [创建抽奖](ji-ben-zhi-ling/chuang-jian-chou-jiang.md)
-* [删除抽奖](ji-ben-zhi-ling/shan-chu-chou-jiang.md)
-* [手动开奖](ji-ben-zhi-ling/shou-dong-kai-jiang.md)
-* [加入抽奖](ji-ben-zhi-ling/jia-ru-chou-jiang.md)
-* [退出抽奖](ji-ben-zhi-ling/tui-chu-chou-jiang.md)
-* [查询抽奖列表](ji-ben-zhi-ling/cha-xun-chou-jiang-lie-biao.md)
-* [查询抽奖详情](ji-ben-zhi-ling/cha-xun-chou-jiang-xiang-qing.md)
-* [查询成员列表](ji-ben-zhi-ling/cha-xun-cheng-yuan-lie-biao.md)
+* [简介](remind/overview.md)
+* [创建提醒](remind/add.md)
+* [为抽奖应用提醒](remind/apply.md)
+* [删除提醒](remind/delete.md)
+* [查询提醒列表](remind/list.md)
+* [查询抽奖启用的提醒](remind/query-active-remind.md)
 
-## 提醒
+## 国际化 <a href="#i18n" id="i18n"></a>
 
-* [简介](ti-xing/jian-jie.md)
-* [创建提醒](ti-xing/chuang-jian-ti-xing.md)
-* [为抽奖应用提醒](ti-xing/wei-chou-jiang-ying-yong-ti-xing.md)
-* [删除提醒](ti-xing/shan-chu-ti-xing.md)
-* [查询提醒列表](ti-xing/cha-xun-ti-xing-lie-biao.md)
-* [查询抽奖启用的提醒](ti-xing/cha-xun-chou-jiang-qi-yong-de-ti-xing.md)
+* [用户时区](i18n/user-timezone.md)
+* [用户语言偏好](i18n/user-language-prefer.md)
+* [频道时区](i18n/channel-timezone.md)
+* [频道语言偏好](i18n/channel-language-prefer.md)
 
-## 高级
+## 高级 <a href="#advanced" id="advanced"></a>
 
-* [编辑抽奖](gao-ji/bian-ji-chou-jiang.md)
-* [使用参数创建抽奖](gao-ji/shi-yong-can-shu-chuang-jian-chou-jiang.md)
-* [加入口令](gao-ji/jia-ru-kou-ling.md)
-* [修改抽奖的开放范围](gao-ji/xiu-gai-chou-jiang-de-kai-fang-fan-wei.md)
+* [编辑抽奖](advanced/edit-roll.md)
+* [使用参数创建抽奖](advanced/add-by-option.md)
+* [加入口令](advanced/join-key.md)
+* [修改抽奖的开放范围](advanced/adjust-open-range.md)
 
-## 权限
+## 配置 <a href="#configuration" id="configuration"></a>
 
-* [Bot管理员](quan-xian/bot-guan-li-yuan.md)
-* [频道管理员](quan-xian/pin-dao-guan-li-yuan.md)
-* [普通成员](quan-xian/pu-tong-cheng-yuan.md)
-* [抽奖创建人](quan-xian/chou-jiang-chuang-jian-ren.md)
-* [抽奖参与者](quan-xian/chou-jiang-can-yu-zhe.md)
+* [全局设置](configuration/global.md)
+* [基本设置](configuration/basic.md)
+* [权限设置](configuration/permission.md)
+* [提醒设置](configuration/remind.md)
+
+## 权限 <a href="#permission" id="permission"></a>
+
+* [Bot管理员](permission/bot-admin.md)
+* [频道管理员](permission/channel-admin.md)
+* [普通成员](permission/channel-member.md)
+* [抽奖创建人](permission/roll-creator.md)
+* [抽奖参与者](permission/roll-member.md)

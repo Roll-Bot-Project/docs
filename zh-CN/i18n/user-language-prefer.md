@@ -4,7 +4,7 @@ description: 用户语言偏好决定了用户与 Roll Bot 交互时使用的语
 
 # 用户语言偏好
 
-> Roll Bot 目前支持的语言包括： `zh` `en`
+> Roll Bot 目前支持的语言包括： `zh-CN` `en-US` de-DE
 
 ```
 /roll locale [语言偏好]
@@ -14,7 +14,7 @@ description: 用户语言偏好决定了用户与 Roll Bot 交互时使用的语
 
 ## 优先级
 
-[pin-dao-yu-yan-pian-hao.md](pin-dao-yu-yan-pian-hao.md "mention") > [yong-hu-yu-yan-pian-hao.md](yong-hu-yu-yan-pian-hao.md "mention") > 默认语言偏好
+[channel-language-prefer.md](channel-language-prefer.md "mention") > [user-language-prefer.md](user-language-prefer.md "mention") > 默认语言偏好
 
 你可以在设置中调整 `i18n.output` 项以修改这一顺序
 

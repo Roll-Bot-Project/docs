@@ -24,7 +24,7 @@ description: 用户时区决定了用户与 Roll Bot 交互时使用的本地时
 
 ## 优先级
 
-[pin-dao-shi-qu.md](pin-dao-shi-qu.md "mention") > [yong-hu-shi-qu.md](yong-hu-shi-qu.md "mention") > [默认时区](../pei-zhi/ji-ben-she-zhi.md#defaulttimeoffset)
+[channel-timezone.md](channel-timezone.md "mention") > [user-timezone.md](user-timezone.md "mention") > [默认时区](../configuration/basic.md#defaulttimeoffset)
 
 你可以在设置中调整 `i18n.output` 项以修改这一顺序
 
