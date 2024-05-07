@@ -1,5 +1,5 @@
 ---
-description: 便捷的抽奖加入方式
+description: Bequeme Teilnahmemöglichkeit für die Lotterie
 ---
 
-# 加入口令
+# Füge ein Passwort hinzu
