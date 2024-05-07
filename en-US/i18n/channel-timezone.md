@@ -1,43 +1,43 @@
 ---
-description: 频道时区决定了频道内所有用户与 Roll Bot 交互时使用的时区
+description: The channel time zone determines the timezone used by all users in the channel when interacting with Roll Bot
 ---
 
-# 频道时区
+# Channel timezone
 
-> 偏移量是时区与 UTC 标准时间的差距，格式为 +时:分:秒 或 -时:分:秒
+> Offset is the difference between time zone and UTC standard time, formatted as +:mm:second or -hour:mm:second
 >
-> 例如 `+5` 或 `-9:30`
+> e.g. `+5` or `-9:30`
 
 ```
-/roll time -c [偏移量]
+/roll time - c [偏移量]
 ```
 
-偏移量不是必填的，留空将返回频道当前设置的偏移量
+Offset is not required. Leave empty to return the channel offset
 
-请注意，由于 `-` 开头的偏移量将被识别为参数，因此请使用 `" "` 包裹你的偏移量
+Note that since the offset at the beginning of the `-` will be identified as an argument, use the `" "` package for your offset
 
-例如：
+e.g.：
 
 ```
 /roll time -c "-7"
 ```
 
-## 优先级
+## Priority
 
 [channel-timezone.md](channel-timezone.md "mention") > [user-timezone.md](user-timezone.md "mention") > [默认时区](../configuration/basic.md#defaulttimeoffset)
 
-你可以在设置中调整 `i18n.output` 项以修改这一顺序
+You can adjust the `i18n.output` entry in the settings to change this order
 
-## 权限
+## Permissions
 
-要修改频道时区，你必须为 [bot-admin.md](../permission/bot-admin.md "mention") 或 [channel-admin.md](../permission/channel-admin.md "mention")
+To modify the channel time zone, you must be [bot-admin.md](../permission/bot-admin.md "mention") or [channel-admin.md](../permission/channel-admin.md "mention")
 
-## 本地化 & 别称
+## Localization & Alias
 
-该指令也可使用如下方式触发
+This command can also be triggered by
 
 ```
 /r time -c [偏移量]
 
-/时区 -c [偏移量]
+/timezone -c [偏移量]
 ```
