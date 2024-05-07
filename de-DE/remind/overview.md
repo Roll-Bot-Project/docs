@@ -1,37 +1,37 @@
 ---
-description: 使用提醒以通知抽奖消息
+description: Verwenden Sie Erinnerungen, um über Lotteriebenachrichtigungen informiert zu werden
 ---
 
-# 简介
+# Einführung
 
-## 抽奖的默认提醒
+## Standardbenachrichtigung für Lotterie
 
-创建抽奖时，将根据设置中 `defaultReminds` 项为其设置默认的提醒
+Wenn Sie eine Lotterie erstellen, wird standardmäßig eine Erinnerung gemäß den Einstellungen in der `defaultReminds`-Option festgelegt
 
-## 提醒消息的推送范围
+## Bereich für die Benachrichtigungsbereitstellung
 
-提醒消息的推送范围默认与抽奖开放范围相同，且会随抽奖开放范围同步变化
+Der Standardbereich für die Benachrichtigungsbereitstellung entspricht dem Bereich der Lotterieöffnung und ändert sich synchron mit dem Bereich der Lotterieöffnung
 
-你可以自行指定提醒消息的推送范围，指定后该提醒的范围将不再动态同步
+Sie können den Bereich für die Benachrichtigungsbereitstellung manuell festlegen. Nach der Festlegung wird der Bereich dieser Benachrichtigung nicht mehr dynamisch synchronisiert
 
-请注意，提醒消息仅能在其抽奖的开放范围内发送
+Bitte beachten Sie, dass Benachrichtigungen nur innerhalb des Öffnungsbereichs der Lotterie gesendet werden können
 
-## 提醒的可见范围
+## Sichtbarkeitsbereich der Benachrichtigung
 
-为了避免过多信息干扰，提醒创建后，你只能查询到你自己创建的提醒。
+Um eine übermäßige Informationsstörung zu vermeiden, können Sie nach der Erstellung von Benachrichtigungen nur diejenigen abfragen, die Sie selbst erstellt haben
 
-但提醒的编号是全局唯一的，你可以在任意地方使用这些编号。
+Die Nummern der Benachrichtigungen sind jedoch global eindeutig, sodass Sie diese Nummern überall verwenden können
 
-## 支持的提醒类型
+## Unterstützte Benachrichtigungstypen
 
-### 定时提醒
+### Zeitgesteuerte Benachrichtigung
 
-在指定时间进行提醒
+Benachrichtigung zu einem bestimmten Zeitpunkt
 
-### 结束前提醒
+### Benachrichtigung vor dem Ende
 
-在抽奖结束前的指定时间进行提醒
+Benachrichtigung zu einem bestimmten Zeitpunkt vor dem Ende der Lotterie
 
-### 间隔提醒
+### Intervallbenachrichtigung
 
-在每个时间间隔后进行提醒
+Benachrichtigung nach jedem Zeitintervall
