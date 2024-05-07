@@ -1,23 +1,23 @@
 ---
-description: 退出指定的抽奖
+description: Verlassen Sie die angegebene Lotterie
 ---
 
-# 退出抽奖
+# Verlassen Sie die Lotterie
 
 ```
-/roll quit <抽奖编号>
+/roll quit <Lotterie-Nummer>
 ```
 
-## 权限
+## Berechtigung
 
-要退出一个抽奖，你必须为指定抽奖的 [roll-member.md](../permission/roll-member.md "mention")
+Um an einer Lotterie teilzunehmen, müssen Sie als [roll-member.md](../permission/roll-member.md "Erwähnung") für die angegebene Lotterie aussteigen
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r quit <抽奖编号>
+/r quit <Lotterie-Nummer>
 
-/退出抽奖 <抽奖编号>
+/Verlassen Sie die Lotterie <Lotterie-Nummer>
 ```
