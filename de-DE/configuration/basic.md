@@ -1,19 +1,19 @@
 ---
-description: 设置插件的基本功能
+description: Grundlegende Funktionen des Plugins einrichten
 ---
 
-# 基本设置
+# Grundeinstellungen
 
 ## adminUsers
 
-Roll Bot 管理员的用户ID
+Benutzer-ID des Roll Bot-Administrators
 
 ## cacheHours
 
-抽奖开奖后，记录保留的时间（小时）
+Zeitraum, in dem die Aufzeichnung nach der Verlosung aufbewahrt wird (Stunden)
 
 ## defaultTimeOffset
 
-未设置时区的用户默认所在的时区（偏移量）
+Standard-Zeitversatz für Benutzer ohne festgelegte Zeitzone (Offset)
 
-填写本地时间与 UTC 时间之间的差异，例如 +5 或 -9:30
+Geben Sie die Differenz zwischen lokaler Zeit und UTC-Zeit an, z.B. +5 oder -9:30
