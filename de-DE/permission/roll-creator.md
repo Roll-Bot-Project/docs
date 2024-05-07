@@ -1,5 +1,5 @@
 ---
-description: 创建抽奖的用户
+description: Benutzer, der das Gewinnspiel erstellt
 ---
 
-# 抽奖创建人
+# Gewinnspiel Ersteller
