@@ -1,9 +1,9 @@
 ---
-description: 频道的 所有者 以及 管理员
+description: The owner and administrator of the channel
 ---
 
-# 频道管理员
+# Channel Admin
 
-对于 qq 来说，频道等同于 qq 群
+For qq channel is equivalent to qq group
 
-对于不存在 所有者 以及 管理员 的平台，将不会验证相应的权限
+For platforms where owners and administrators do not exist, permissions will not be verified
