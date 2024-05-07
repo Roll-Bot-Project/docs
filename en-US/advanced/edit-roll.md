@@ -1,11 +1,11 @@
 ---
-description: 对已经创建的抽奖进行编辑
+description: Edit Pickup already created
 ---
 
-# 编辑抽奖
+# Edit draw award
 
 ```
-/roll edit <抽奖编号> [-r --range] [--]
+/roll edit <draw number> [-r --range] [--]
 ```
 
-使用参数编辑抽奖的具体项
+Edit Pickup Specific Items using Parameters
