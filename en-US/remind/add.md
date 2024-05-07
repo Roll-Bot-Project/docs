@@ -1,21 +1,21 @@
 ---
-description: 交互式地创建一个提醒
+description: Create an interactive reminder
 ---
 
-# 创建提醒
+# Create Reminder
 
 ```
-/roll remind add [--range]
+/roll remind ad [--range]
 ```
 
-> 若要手动指定范围，请参阅 提醒范围
+> To specify range manually, see the alarm range
 
-## 手动指定提醒范围
+## Specify alarm range manually
 
-创建提醒时，你可以使用 `-r <`频道id`> 参数指定提醒范围`
+When creating a alarm, you can specify the alarm range using the ``-r <`channel id`> parameter``
 
-用法：
+Usage：
 
 ```
-/roll remind add 0435 -r [1001,1002,1003]
+/roll remand add 0435 -r [1001,1002,1003]
 ```
