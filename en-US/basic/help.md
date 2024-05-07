@@ -1,19 +1,19 @@
 ---
-description: 显示帮助信息
+description: Show Help Info
 ---
 
-# 帮助
+# Help
 
 ```
 /roll help
 ```
 
-## 本地化 & 别称
+## Localization & Alias
 
-该指令也可使用如下方式触发
+This command can also be triggered by
 
 ```
 /r help
 
-/抽奖帮助
+/ draw help
 ```
