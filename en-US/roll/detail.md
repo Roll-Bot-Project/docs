@@ -1,26 +1,26 @@
 ---
-description: 查询指定抽奖的详细内容
+description: Query the details of the selected prize
 ---
 
-# 查询抽奖详情
+# Lookup Pickup Details
 
 ```
-/roll detail <抽奖编号>
+/roll detail <Pick-up number>
 ```
 
-内容包括：
+Content includes：
 
-- 当前抽奖状态（已结束 / 进行中）
-- 抽奖描述
-- 奖品列表
-- 中奖人
+- Current drawing status (finished/ ongoing)
+- Pickup description
+- List of awards
+- Middle Award
 
-## 本地化 & 别称
+## Localization & Alias
 
-该指令也可使用如下方式触发
+This command can also be triggered by
 
 ```
-/r detail <抽奖编号>
+/r detail <drawing number>
 
-/抽奖详情 <抽奖编号>
+/ drawing details <drawing number>
 ```
