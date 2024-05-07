@@ -1,13 +1,13 @@
 ---
-description: 让抽奖对多个频道开放
+description: Öffnen Sie die Lotterie für mehrere Kanäle
 ---
 
-# 修改抽奖的开放范围
+# Ändern Sie den Bereich, in dem die Lotterie geöffnet ist
 
-对于 qq 之外的平台，抽奖默认的开放范围可能不足以满足实际要求，你可以通过
+Für Plattformen außer qq reicht der standardmäßige Öffnungsbereich der Lotterie möglicherweise nicht aus, um den tatsächlichen Anforderungen gerecht zu werden. Sie können dies durch
 
 ```
-/roll edit -r <范围>
+/roll bearbeiten -r <Bereich>
 ```
 
-修改抽奖开放的
+Ändern Sie die Öffnung der Lotterie
