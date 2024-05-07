@@ -1,9 +1,9 @@
 ---
-description: 设置抽奖的默认提醒
+description: Set Default Reminder
 ---
 
-# 提醒设置
+# Reminder Settings
 
-## defaultReminds
+## defaultRemins
 
-默认为每个新建抽奖添加的提醒
+Alerts added by default for each new drawing
