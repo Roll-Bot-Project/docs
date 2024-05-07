@@ -1,13 +1,13 @@
 ---
-description: 插件涉及到的 Koishi 全局设置
+description: Plugin-bezogene globale Einstellungen von Koishi
 ---
 
-# 全局设置
+# Globale Einstellungen
 
 ## options.delay.prompt <a href="#options-delay" id="options-delay"></a>
 
-交互操作的等待时间（毫秒）
+Wartezeit für Interaktionen (in Millisekunden)
 
 ## i18n.output <a href="#options-delay" id="options-delay"></a>
 
-语言偏好与时区的应用优先级
+Priorität der Anwendung von Sprachpräferenz und Zeitzone
