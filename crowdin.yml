@@ -1,0 +1,17 @@
+files:
+  - source: /zh-CN/*
+    translation: /%locale%/%original_file_name%
+  - source: /zh-CN/roll/*
+    translation: /%locale%/roll/%original_file_name%
+  - source: /zh-CN/remind/*
+    translation: /%locale%/remind/%original_file_name%
+  - source: /zh-CN/permission/*
+    translation: /%locale%/permission/%original_file_name%
+  - source: /zh-CN/i18n/*
+    translation: /%locale%/i18n/%original_file_name%
+  - source: /zh-CN/configuration/*
+    translation: /%locale%/configuration/%original_file_name%
+  - source: /zh-CN/basic/*
+    translation: /%locale%/basic/%original_file_name%
+  - source: /zh-CN/advanced/*
+    translation: /%locale%/advanced/%original_file_name%
