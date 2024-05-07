@@ -1,17 +1,17 @@
 ---
-description: 设置指令的调用权限
+description: Legen Sie die Aufrufberechtigung für Befehle fest
 ---
 
-# 权限设置
+# Berechtigungseinstellungen
 
 ## allowGuildAdminDelete
 
-允许 [channel-admin.md](../permission/channel-admin.md "mention") 对群内抽奖进行删除
+Erlauben Sie [channel-admin.md](../permission/channel-admin.md "mention") das Löschen von Gewinnspielen in der Gruppe
 
 ## allowGuildAdminEnd
 
-允许 [channel-admin.md](../permission/channel-admin.md "mention") 对群内抽奖进行手动开奖
+Erlauben Sie [channel-admin.md](../permission/channel-admin.md "mention") das manuelle Beenden von Gewinnspielen in der Gruppe
 
 ## allowNormalUserAdd
 
-允许 [channel-member.md](../permission/channel-member.md "mention") 创建抽奖
+Erlauben Sie [channel-member.md](../permission/channel-member.md "mention") das Erstellen von Gewinnspielen
