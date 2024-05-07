@@ -1,39 +1,39 @@
 ---
-description: 用户时区决定了用户与 Roll Bot 交互时使用的本地时间
+description: Benutzerzeitzone entscheidet über die lokale Zeit, die beim Interagieren mit Roll Bot verwendet wird
 ---
 
-# 用户时区
+# Benutzerzeitzone
 
-> 偏移量是时区与 UTC 标准时间的差距，格式为 +时:分:秒 或 -时:分:秒
+> Die Verschiebung ist der Unterschied zwischen der Zeitzone und der UTC-Standardzeit, im Format +Stunden:Minuten:Sekunden oder -Stunden:Minuten:Sekunden
 >
-> 例如 `+8` 或 `-9:30 或 −00:25:21 (如果你在1880年的爱尔兰)`
+> zum Beispiel `+8` oder `-9:30 oder −00:25:21 (wenn Sie sich im Irland des Jahres 1880 befinden)`
 
 ```
-/roll time [偏移量]
+/roll time [Versatz]
 ```
 
-偏移量不是必填的，留空将返回你当前设置的偏移量
+Der Versatz ist optional und wird leer gelassen, um Ihren aktuellen Versatz zurückzugeben
 
-请注意，由于 `-` 开头的偏移量将被识别为参数，因此请使用 `" "` 包裹你的偏移量
+Bitte beachten Sie, dass eine Verschiebung, die mit `-` beginnt, als Argument erkannt wird, daher verwenden Sie bitte `" "` um Ihre Verschiebung zu umschließen
 
-例如：
+Zum Beispiel:
 
 ```
 /roll time "-7"
 ```
 
-## 优先级
+## Priorität
 
-[channel-timezone.md](channel-timezone.md "mention") > [user-timezone.md](user-timezone.md "mention") > [默认时区](../configuration/basic.md#defaulttimeoffset)
+[channel-timezone.md](channel-timezone.md "Erwähnung") > [user-timezone.md](user-timezone.md "Erwähnung") > [Standardzeitzone](../configuration/basic.md#defaulttimeoffset)
 
-你可以在设置中调整 `i18n.output` 项以修改这一顺序
+Sie können den `i18n.output`-Parameter in den Einstellungen ändern, um diese Reihenfolge anzupassen
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r time [偏移量]
+/r time [Versatz]
 
-/时区 [偏移量]
+/Zeitzone [Versatz]
 ```
