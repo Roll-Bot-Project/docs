@@ -1,39 +1,39 @@
 ---
-description: 用户时区决定了用户与 Roll Bot 交互时使用的本地时间
+description: The user time zone determines the local time to use when users interact with Roll Bot
 ---
 
-# 用户时区
+# User timezone
 
-> 偏移量是时区与 UTC 标准时间的差距，格式为 +时:分:秒 或 -时:分:秒
+> Offset is the difference between time zone and UTC standard time, formatted as +:mm:second or -hour:mm:second
 >
-> 例如 `+8` 或 `-9:30 或 −00:25:21 (如果你在1880年的爱尔兰)`
+> e.g. `+8` or `-9:30 or -00:25:21 (if you were in Ireland in 1880)`
 
 ```
 /roll time [偏移量]
 ```
 
-偏移量不是必填的，留空将返回你当前设置的偏移量
+Offset is not required. Leave empty to return the offset you currently set
 
-请注意，由于 `-` 开头的偏移量将被识别为参数，因此请使用 `" "` 包裹你的偏移量
+Note that since the offset at the beginning of the `-` will be identified as an argument, use the `" "` package for your offset
 
-例如：
+e.g.：
 
 ```
 /roll time "-7"
 ```
 
-## 优先级
+## Priority
 
 [channel-timezone.md](channel-timezone.md "mention") > [user-timezone.md](user-timezone.md "mention") > [默认时区](../configuration/basic.md#defaulttimeoffset)
 
-你可以在设置中调整 `i18n.output` 项以修改这一顺序
+You can adjust the `i18n.output` entry in the settings to change this order
 
-## 本地化 & 别称
+## Localization & Alias
 
-该指令也可使用如下方式触发
+This command can also be triggered by
 
 ```
 /r time [偏移量]
 
-/时区 [偏移量]
+/timezone [偏移量]
 ```
