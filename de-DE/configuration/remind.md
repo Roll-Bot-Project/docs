@@ -1,9 +1,9 @@
 ---
-description: 设置抽奖的默认提醒
+description: Setzen Sie die Standardbenachrichtigung für die Lotterie
 ---
 
-# 提醒设置
+# Erinnerungseinstellungen
 
 ## defaultReminds
 
-默认为每个新建抽奖添加的提醒
+Standardmäßig für jede neu erstellte Lotterie hinzugefügte Erinnerung
