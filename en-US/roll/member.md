@@ -1,19 +1,19 @@
 ---
-description: 查询指定抽奖的参与成员
+description: Query participants for the selected lottery
 ---
 
-# 查询成员列表
+# Query membership list
 
 ```
-/roll member <抽奖编号>
+/roll member <Pick-up number>
 ```
 
-## 本地化 & 别称
+## Localization & Alias
 
-该指令也可使用如下方式触发
+This command can also be triggered by
 
 ```
-/r member <抽奖编号>
+/r member <draw number>
 
-/抽奖成员 <抽奖编号>
+/ drawing member<drawing number>
 ```
