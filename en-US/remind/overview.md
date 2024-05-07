@@ -1,37 +1,37 @@
 ---
-description: 使用提醒以通知抽奖消息
+description: Use a reminder to notify the drawing of a message
 ---
 
-# 简介
+# Introduction
 
-## 抽奖的默认提醒
+## Default Reminder
 
-创建抽奖时，将根据设置中 `defaultReminds` 项为其设置默认的提醒
+The default reminder will be set for the `defaultReminds` item in the settings when creating the prize.
 
-## 提醒消息的推送范围
+## Reminder message push range
 
-提醒消息的推送范围默认与抽奖开放范围相同，且会随抽奖开放范围同步变化
+The push range for reminders will be the same as for a drawing of rewards by default and will be synchronized with the drawing
 
-你可以自行指定提醒消息的推送范围，指定后该提醒的范围将不再动态同步
+You can specify the push range of reminders. The range of reminders will no longer be synced dynamically when specified.
 
-请注意，提醒消息仅能在其抽奖的开放范围内发送
+Note that reminders can only be sent within the open range of their prizes.
 
-## 提醒的可见范围
+## Visible range of reminders
 
-为了避免过多信息干扰，提醒创建后，你只能查询到你自己创建的提醒。
+In order to avoid excessive information disruption, when a reminder is created, you can only query the alarm you created yourself.
 
-但提醒的编号是全局唯一的，你可以在任意地方使用这些编号。
+But the number of reminders is the only global one, and you can use them anywhere else.
 
-## 支持的提醒类型
+## Supported alarm types
 
-### 定时提醒
+### Timed reminders
 
-在指定时间进行提醒
+Reminder at specified time
 
-### 结束前提醒
+### Alert before end
 
-在抽奖结束前的指定时间进行提醒
+Notify at the specified time before the end of the drawing
 
-### 间隔提醒
+### Reminder interval
 
-在每个时间间隔后进行提醒
+Notify after each time interval
