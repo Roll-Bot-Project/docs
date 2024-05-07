@@ -1,9 +1,9 @@
 ---
-description: 手动或交互式地删除一个提醒
+description: Manuell oder interaktiv eine Erinnerung löschen
 ---
 
-# 删除提醒
+# Erinnerung löschen
 
 ```
-/roll remind delete [提醒编号1] [提醒编号2] ...
+/roll remind delete [Erinnerungsnummer1] [Erinnerungsnummer2] ...
 ```
