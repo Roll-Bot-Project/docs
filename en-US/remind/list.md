@@ -1,11 +1,11 @@
 ---
-description: 查询你创建的提醒列表
+description: Query the alarm list you created
 ---
 
-# 查询提醒列表
+# Query alarm list
 
 ```
-/roll remind list
+/roll remand list
 ```
 
-> 你只能查询你自己创建的提醒，详阅：[提醒的可见范围](overview.md#ti-xing-de-ke-jian-fan-wei)
+> You can only query the alarm you created yourself, read：[提醒的可见范围](overview.md#ti-xing-de-ke-jian-fan-wei)
