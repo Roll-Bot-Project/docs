@@ -1,7 +1,7 @@
 ---
-description: 频道的 所有者 以及 管理员 之外的成员
+description: Mitglieder außer dem Besitzer und den Administratoren des Kanals
 ---
 
-# 普通成员
+# Normaler Benutzer
 
-> 对于 qq 来说，频道等同于 qq 群
+> Für QQ entspricht ein Kanal einer QQ-Gruppe
