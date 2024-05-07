@@ -1,5 +1,5 @@
 ---
-description: 加入抽奖的用户
+description: Benutzer, der an der Lotterie teilnimmt
 ---
 
-# 抽奖参与者
+# Lotterieteilnehmer
