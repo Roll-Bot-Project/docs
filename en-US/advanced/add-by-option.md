@@ -1,5 +1,5 @@
 ---
-description: 使用参数创建抽奖
+description: Add roll by options
 ---
 
-# 使用参数创建抽奖
+# Add roll by options
