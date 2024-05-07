@@ -1,102 +1,102 @@
 ---
-description: 交互式地创建一个抽奖
+description: Interaktive Erstellung einer Verlosung
 ---
 
-# 创建抽奖
+# Verlosung erstellen
 
 ```
-/roll add
+/roll hinzufügen
 ```
 
-> 你也可以使用参数在一条命令内填写所有内容，详见 [add-by-option.md](../advanced/add-by-option.md "mention")
+> Sie können auch Parameter verwenden, um alle Informationen in einem Befehl einzugeben, siehe [add-by-option.md](../advanced/add-by-option.md "mention")
 
-## 快捷创建
+## Schnelle Erstellung
 
-你可以使用 `-n` 参数选择所有可能的默认项，此时你只需要提供奖品列表即可创建一个抽奖
+Sie können den Parameter `-n` verwenden, um alle möglichen Standardoptionen auszuwählen. Geben Sie einfach eine Liste von Preisen ein, um eine Verlosung zu erstellen
 
-即：
+D. h.:
 
 ```
-/roll add -n
+/roll hinzufügen -n
 ```
 
-## 创建项
+## Erstellungsgegenstand
 
-### 标题
+### Titel
 
-显示在查询列表上的名称
+Name, der in der Abfrageliste angezeigt wird
 
-回复 n 使用默认内容：<用户名> 的抽奖
+Antworten Sie mit n, um den Standardinhalt zu verwenden: Verlosung von <Benutzername>
 
-### 详细描述
+### Ausführliche Beschreibung
 
-抽奖的详细描述，将在 [list.md](list.md "mention") 指令中显示
+Detaillierte Beschreibung der Verlosung, die im Befehl [list.md](list.md "mention") angezeigt wird
 
-回复 n 使用默认内容：<用户名> 的抽奖
+Antworten Sie mit n, um den Standardinhalt zu verwenden: Verlosung von <Benutzername>
 
-### 奖品
+### Preise
 
-你要抽的奖品，格式为 `<奖品名称>*[数量(留空为1)]`，每行视为一个独立奖品
+Die Preise, die Sie gewinnen möchten, sind im Format <Preisname>\*[Anzahl (leer für 1)], jede Zeile wird als eigenständiger Preis betrachtet
 
-例如：
+Zum Beispiel:
 
 {% code lineNumbers="true" %}
 
 ```
-挂画*2     // 两个挂画
-抱枕       // 一个抱枕
+Bild*2     // Zwei Bilder
+Kissen       // Ein Kissen
 
-// 66个[支 持 空 格 和*多*个*乘*号*2]
-支 持 空 格 和*多*个*乘*号*2*66
+// 66 [Unterstützung Leerzeichen und* mehrfache* Multiplikationszeichen*2]
+Unterstützung Leerzeichen und* mehrfache* Multiplikationszeichen*2*66
 ```
 
 {% endcode %}
 
-### 自动开奖
+### Automatische Auslosung
 
-抽奖的开奖时间，格式为 年-月-日-时-分（分钟可省略）
+Zeitpunkt der Verlosung, im Format Jahr-Monat-Tag-Stunde-Minute (Minute kann weggelassen werden)
 
-回复 n 则不使用自动开奖
+Antworten Sie mit n, um die automatische Auslosung nicht zu verwenden
 
-例如：
+Zum Beispiel:
 
 {% code lineNumbers="true" %}
 
 ```
-2077-11-4-5-14    // 2077年11月4日5时14分
-2042-2-6-23       // 2042年2月6日23时00分
+2077-11-4-5-14    // 4. November 2077, 5:14 Uhr
+2042-2-6-23       // 6. Februar 2042, 23:00 Uhr
 ```
 
 {% endcode %}
 
-### 抽奖类型
+### Verlosungstyp
 
-选择自动开奖的抽奖类型，仅需回复数字
+Wählen Sie den Verlosungstyp für die automatische Auslosung aus, geben Sie einfach eine Zahl an
 
-0：中奖人可重复
+0：Gewinner kann sich wiederholen
 
-1：中奖人不可重复
+1：Gewinner kann sich nicht wiederholen
 
-回复 n 则使用默认类型：1
+Antworte n, um den Standardtyp zu verwenden: 1
 
-### 加入口令
+### Füge ein Passwort hinzu
 
-创建一个加入口令，使得用户可以直接发送口令来加入抽奖
+Erstelle ein Passwort, damit Benutzer das Passwort direkt senden können, um am Gewinnspiel teilzunehmen
 
-回复 n 则不使用加入口令
+Antworte n, um kein Passwort hinzuzufügen
 
-## 权限
+## Berechtigung
 
-要创建一个抽奖，你必须为 [bot-admin.md](../permission/bot-admin.md "mention") 或 [channel-admin.md](../permission/channel-admin.md "mention")
+Um ein Gewinnspiel zu erstellen, musst du [bot-admin.md](../permission/bot-admin.md "mention") oder [channel-admin.md](../permission/channel-admin.md "mention") sein
 
-如果在设置中启用了 `allowNormalUserAdd` 项，则 [channel-member.md](../permission/channel-member.md "mention") 也可以进行创建操作
+Wenn die Option `allowNormalUserAdd` in den Einstellungen aktiviert ist, können auch [channel-member.md](../permission/channel-member.md "mention") den Vorgang durchführen
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r add
+/r hinzufügen
 
-/创建抽奖
+/Erstelle Gewinnspiel
 ```
