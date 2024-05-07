@@ -1,31 +1,31 @@
 ---
-description: 手动进行开奖
+description: Manual award
 ---
 
-# 手动开奖
+# Manual Award
 
 ```
 /roll end [抽奖编号]
-或
+or
 /roll draw [抽奖编号]
 ```
 
-> 抽奖编号不是必填的，留空将交互式地手动开奖
+> Pickup numbers are not required. Leave empty to manually award
 
-## 权限
+## Permissions
 
-要手动开奖，你必须为 [roll-creator.md](../permission/roll-creator.md "mention") 或 [bot-admin.md](../permission/bot-admin.md "mention")
+To manually launch the award, you must be [roll-creator.md](../permission/roll-creator.md "mention") or [bot-admin.md](../permission/bot-admin.md "mention")
 
-如果在设置中启用了 `allowGuildAdminEnd` 项，则抽奖范围内的 [channel-admin.md](../permission/channel-admin.md "mention") 也可以进行手动开奖操作
+If `allowGuildAdminEnd` is enabled in the settings, then [channel-admin.md](../permission/channel-admin.md "mention") can also be used manually
 
-## 本地化 & 别称
+## Localization & Alias
 
-该指令也可使用如下方式触发
+This command can also be triggered by
 
 ```
 /r end [抽奖编号]
 
 /r draw [抽奖编号]
 
-/开奖 [抽奖编号]
+/award [抽奖编号]
 ```
