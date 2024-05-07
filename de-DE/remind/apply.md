@@ -1,9 +1,9 @@
 ---
-description: 为指定抽奖应用提醒
+description: Erinnern Sie an die angegebene Lotterieanwendung
 ---
 
-# 为抽奖应用提醒
+# Erinnern Sie an die Lotterieanwendung
 
 ```
-/roll remind apply <抽奖编号> <提醒编号1> [提醒编号2] ...
+/roll erinnern anwenden <Lotterie-Nummer> <Erinnerungs-Nummer1> [Erinnerungs-Nummer2] ...
 ```
