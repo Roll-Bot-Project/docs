@@ -1,102 +1,102 @@
 ---
-description: 交互式地创建一个抽奖
+description: Interactive creation of a drawing
 ---
 
-# 创建抽奖
+# Create a drawing award
 
 ```
 /roll add
 ```
 
-> 你也可以使用参数在一条命令内填写所有内容，详见 [add-by-option.md](../advanced/add-by-option.md "mention")
+> You can also use parameters to fill in all content in a command. See [add-by-option.md](../addited/add-by-option.md "mention")
 
-## 快捷创建
+## Quick Create
 
-你可以使用 `-n` 参数选择所有可能的默认项，此时你只需要提供奖品列表即可创建一个抽奖
+You can select all possible default items using the `-n` parameter, you can create a drawing at this point by simply providing a list of prizes
 
-即：
+It is：
 
 ```
 /roll add -n
 ```
 
-## 创建项
+## Create Item
 
-### 标题
+### Title
 
-显示在查询列表上的名称
+Name displayed on query list
 
-回复 n 使用默认内容：<用户名> 的抽奖
+Reply-by using default：<Username>
 
-### 详细描述
+### Description
 
-抽奖的详细描述，将在 [list.md](list.md "mention") 指令中显示
+A detailed description of the drawing will be displayed in the [list.md](list.md "mention") directive
 
-回复 n 使用默认内容：<用户名> 的抽奖
+Reply-by using default：<Username>
 
-### 奖品
+### Prizes
 
-你要抽的奖品，格式为 `<奖品名称>*[数量(留空为1)]`，每行视为一个独立奖品
+You are about to draw a prize in the format `<Prize name>*[Amount (Leave empty 1)]`, each line is considered to be an independent prize
 
-例如：
-
-{% code lineNumbers="true" %}
-
-```
-挂画*2     // 两个挂画
-抱枕       // 一个抱枕
-
-// 66个[支 持 空 格 和*多*个*乘*号*2]
-支 持 空 格 和*多*个*乘*号*2*66
-```
-
-{% endcode %}
-
-### 自动开奖
-
-抽奖的开奖时间，格式为 年-月-日-时-分（分钟可省略）
-
-回复 n 则不使用自动开奖
-
-例如：
+e.g.：
 
 {% code lineNumbers="true" %}
 
 ```
-2077-11-4-5-14    // 2077年11月4日5时14分
-2042-2-6-23       // 2042年2月6日23时00分
+The applet *2// Two paintings
+with a total / / one with
+
+// 66 [empty space and *more * by *2]
+empty space and *more * by *2*66
 ```
 
 {% endcode %}
 
-### 抽奖类型
+### Automatic awards
 
-选择自动开奖的抽奖类型，仅需回复数字
+Award opening time, in the form of Year-mm-days-hour-minutes (minutes may be omitted)
 
-0：中奖人可重复
+Replyn does not use automatic award
 
-1：中奖人不可重复
+e.g.：
 
-回复 n 则使用默认类型：1
+{% code lineNumbers="true" %}
 
-### 加入口令
+```
+2077-11-4-5-14    // November 4, 2077, 5:14 AM
+2042-2-6-23       // February 6, 2042, 11:00 PM
+```
 
-创建一个加入口令，使得用户可以直接发送口令来加入抽奖
+{% endcode %}
 
-回复 n 则不使用加入口令
+### Pickup Type
 
-## 权限
+Select the type of prize to start automatically, just reply numbers
 
-要创建一个抽奖，你必须为 [bot-admin.md](../permission/bot-admin.md "mention") 或 [channel-admin.md](../permission/channel-admin.md "mention")
+The prizer in 0：can repeat
 
-如果在设置中启用了 `allowNormalUserAdd` 项，则 [channel-member.md](../permission/channel-member.md "mention") 也可以进行创建操作
+The prizer in 1：cannot repeat
 
-## 本地化 & 别称
+Reply with n to use the default type: 1
 
-该指令也可使用如下方式触发
+### Add Token
+
+Create a new password that allows users to send a password directly to add a premium
+
+Reply to n without adding password
+
+## Permissions
+
+To create a draw you must be [bot-admin.md](../permission/bot-admin.md "mention") or [channel-admin.md](../permission/channel-admin.md "mention")
+
+If `allowNormalUserAdd` is enabled in Settings, then [channel-member.md](../permission/channel-member.md "mention") can also be created
+
+## Localization & Alias
+
+This command can also be triggered by
 
 ```
 /r add
 
-/创建抽奖
+/ Create Pickup
 ```
