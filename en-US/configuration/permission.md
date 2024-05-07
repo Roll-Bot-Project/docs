@@ -1,17 +1,17 @@
 ---
-description: 设置指令的调用权限
+description: Set command call permissions
 ---
 
-# 权限设置
+# Permission Settings
 
-## allowGuildAdminDelete
+## Allow AdminDelete
 
-允许 [channel-admin.md](../permission/channel-admin.md "mention") 对群内抽奖进行删除
+Allow [channel-admin.md](../permission/channel-admin.md "mention") to delete lots in the group
 
 ## allowGuildAdminEnd
 
-允许 [channel-admin.md](../permission/channel-admin.md "mention") 对群内抽奖进行手动开奖
+Allow [channel-admin.md](../permission/channel-admin.md "mention") to take a hand-started award for a group drawing
 
 ## allowNormalUserAdd
 
-允许 [channel-member.md](../permission/channel-member.md "mention") 创建抽奖
+Allow [channel-member.md](../permission/channel-member.md "mention") to create prizes
