@@ -1,23 +1,23 @@
 ---
-description: 查询指定频道内的抽奖
+description: Suche nach einer Verlosung in einem bestimmten Kanal
 ---
 
-# 查询抽奖列表
+# Verlosungsliste abrufen
 
 ```
-/roll list [频道id]
+/roll list [Kanal-ID]
 ```
 
-频道id不是必填的，留空将返回当前频道的抽奖
+Die Kanal-ID ist optional. Wenn sie leer gelassen wird, wird die Verlosung im aktuellen Kanal zurückgegeben
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r list [频道id]
+/r list [Kanal-ID]
 
-/抽奖列表 [频道id]
+/Verlosungsliste [Kanal-ID]
 
-/在抽啥 [频道id]
+/WhatToDraw [Kanal-ID]
 ```
