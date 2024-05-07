@@ -1,29 +1,29 @@
 ---
-description: 用户语言偏好决定了用户与 Roll Bot 交互时使用的语言
+description: User language preferences determine which language users use when interacting with Roll Bot
 ---
 
-# 用户语言偏好
+# User language preferences
 
-> Roll Bot 目前支持的语言包括： `zh-CN` `en-US` de-DE
+> Current language by Roll Bot includes： `en-US` `en-US` de-DE
 
 ```
 /roll locale [语言偏好]
 ```
 
-语言偏好不是必填的，留空将返回你当前设置的语言偏好
+Language preferences are not required. Leave empty to return your current language preferences
 
-## 优先级
+## Priority
 
-[channel-language-prefer.md](channel-language-prefer.md "mention") > [user-language-prefer.md](user-language-prefer.md "mention") > 默认语言偏好
+[channel-language-prefer.md](channel-language-preference.md "mention") > [user-language-prefer.md](user-language-preference.md "mention") > Default Language Preferences
 
-你可以在设置中调整 `i18n.output` 项以修改这一顺序
+You can adjust the `i18n.output` entry in the settings to change this order
 
-## 本地化 & 别称
+## Localization & Alias
 
-该指令也可使用如下方式触发
+This command can also be triggered by
 
 ```
 /r locale [语言偏好]
 
-/语言 [语言偏好]
+/Language [语言偏好]
 ```
