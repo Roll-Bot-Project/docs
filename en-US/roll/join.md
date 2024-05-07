@@ -1,25 +1,25 @@
 ---
-description: 加入指定的抽奖
+description: Add selected prizes
 ---
 
-# 加入抽奖
+# Add a drawing of awards
 
 ```
-/roll join <抽奖编号>
+/roll joinin <Pick-up number>
 ```
 
-> 你也可以通过直接发送加入口令来加入一个抽奖，详见 [join-key.md](../advanced/join-key.md "mention")
+> You can also add a drawing by directly sending the addition token, see [join-key.md](../adved/join-key.md "mention")
 
-## 权限
+## Permissions
 
-要加入一个抽奖，你必须在该抽奖开放范围内的频道使用该指令
+In order to join a draw you must use this directive in the channel within which it is open
 
-## 本地化 & 别称
+## Localization & Alias
 
-该指令也可使用如下方式触发
+This command can also be triggered by
 
 ```
-/r join <抽奖编号>
+/r join <Pick-up Number>
 
-/加入抽奖 <抽奖编号>
+/ Add Pumping<Pick-up Number>
 ```
