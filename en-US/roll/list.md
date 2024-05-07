@@ -1,23 +1,23 @@
 ---
-description: 查询指定频道内的抽奖
+description: Queries about selected awards within a specified channel
 ---
 
-# 查询抽奖列表
+# Query Pickup List
 
 ```
 /roll list [频道id]
 ```
 
-频道id不是必填的，留空将返回当前频道的抽奖
+Channel ID is not required. Leave empty to return the current channel draw
 
-## 本地化 & 别称
+## Localization & Alias
 
-该指令也可使用如下方式触发
+This command can also be triggered by
 
 ```
 /r list [频道id]
 
-/抽奖列表 [频道id]
+/ Pick-up list [频道id]
 
-/在抽啥 [频道id]
+/ Pick [频道id]
 ```
