@@ -1,5 +1,5 @@
 ---
-description: 创建抽奖的用户
+description: Create Pickup User
 ---
 
-# 抽奖创建人
+# Pick up creator
