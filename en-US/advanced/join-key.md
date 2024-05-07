@@ -1,5 +1,5 @@
 ---
-description: 便捷的抽奖加入方式
+description: Easy Pick-up Method
 ---
 
-# 加入口令
+# Add Token
