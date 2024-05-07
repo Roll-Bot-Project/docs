@@ -1,25 +1,25 @@
 ---
-description: 加入指定的抽奖
+description: Treten Sie dem angegebenen Gewinnspiel bei
 ---
 
-# 加入抽奖
+# Treten Sie dem Gewinnspiel bei
 
 ```
-/roll join <抽奖编号>
+/roll join <Gewinnspielnummer>
 ```
 
-> 你也可以通过直接发送加入口令来加入一个抽奖，详见 [join-key.md](../advanced/join-key.md "mention")
+> Sie können auch einem Gewinnspiel beitreten, indem Sie direkt den Beitrittscode senden, siehe [join-key.md](../advanced/join-key.md "mention")
 
-## 权限
+## Berechtigung
 
-要加入一个抽奖，你必须在该抽奖开放范围内的频道使用该指令
+Um an einem Gewinnspiel teilzunehmen, müssen Sie diesen Befehl in einem Kanal verwenden, der im Bereich des Gewinnspiels geöffnet ist
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r join <抽奖编号>
+/r join <Gewinnspielnummer>
 
-/加入抽奖 <抽奖编号>
+/Join Gewinnspiel <Gewinnspielnummer>
 ```
