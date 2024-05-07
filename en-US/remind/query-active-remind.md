@@ -1,9 +1,9 @@
 ---
-description: 查询指定抽奖启用的提醒列表
+description: Query the alarm list for which the Pickup is enabled
 ---
 
-# 查询抽奖启用的提醒
+# Query Reminder Enabled
 
 ```
-/roll remind for <抽奖编号>
+/roll remand for <Pick-up number>
 ```
