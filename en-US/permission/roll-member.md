@@ -1,5 +1,5 @@
 ---
-description: 加入抽奖的用户
+description: Users who joined the drawing
 ---
 
-# 抽奖参与者
+# Pickup participants
