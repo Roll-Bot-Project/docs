@@ -1,25 +1,25 @@
 ---
-description: 获取当前频道的频道id
+description: Holen Sie die Kanal-ID des aktuellen Kanals
 ---
 
-# 获取频道id
+# Holen Sie die Kanal-ID
 
 ```
-/roll channel
+/roll Kanal
 ```
 
-对于 qq 群，频道id与群号相同
+Für QQ-Gruppen entspricht die Kanal-ID der Gruppennummer
 
-对于非 qq 群用户，你需要使用该指令获得频道id
+Für Nicht-QQ-Gruppenbenutzer müssen Sie diesen Befehl verwenden, um die Kanal-ID zu erhalten
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
 /roll ch
 
-/r channel
+/r Kanal
 
 /r ch
 ```
