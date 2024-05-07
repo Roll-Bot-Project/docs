@@ -1,9 +1,9 @@
 ---
-description: 查询指定抽奖启用的提醒列表
+description: Abfrage der Erinnerungsliste für aktivierten Gewinnspiel
 ---
 
-# 查询抽奖启用的提醒
+# Abfrage der Erinnerung für aktiviertes Gewinnspiel
 
 ```
-/roll remind for <抽奖编号>
+/roll remind für <抽奖编号>
 ```
