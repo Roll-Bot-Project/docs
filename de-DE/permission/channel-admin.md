@@ -1,9 +1,9 @@
 ---
-description: 频道的 所有者 以及 管理员
+description: Kanalbesitzer und Administratoren
 ---
 
-# 频道管理员
+# Kanaladministrator
 
-对于 qq 来说，频道等同于 qq 群
+Für QQ entspricht ein Kanal einer QQ-Gruppe
 
-对于不存在 所有者 以及 管理员 的平台，将不会验证相应的权限
+Für Plattformen ohne Besitzer und Administratoren werden entsprechende Berechtigungen nicht überprüft
