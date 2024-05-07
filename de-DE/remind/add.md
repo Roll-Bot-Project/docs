@@ -1,20 +1,20 @@
 ---
-description: 交互式地创建一个提醒
+description: Interaktive Erstellung einer Erinnerung
 ---
 
-# 创建提醒
+# Erinnerung erstellen
 
 ```
 /roll remind add [--range]
 ```
 
-> 若要手动指定范围，请参阅 提醒范围
+> Um den Bereich manuell festzulegen, siehe Erinnerungsbereich
 
-## 手动指定提醒范围
+## Manuelle Festlegung des Erinnerungsbereichs
 
-创建提醒时，你可以使用 `-r <`频道id`> 参数指定提醒范围`
+Bei der Erstellung einer Erinnerung können Sie den Bereich mit dem Parameter `-r <Kanal-ID>` festlegen
 
-用法：
+Anwendung:
 
 ```
 /roll remind add 0435 -r [1001,1002,1003]
