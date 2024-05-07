@@ -1,26 +1,26 @@
 ---
-description: 查询指定抽奖的详细内容
+description: Abfrage der ausführlichen Informationen zu einer bestimmten Lotterie
 ---
 
-# 查询抽奖详情
+# Lotteriedetails abfragen
 
 ```
-/roll detail <抽奖编号>
+/roll detail <Lotterie-Nummer>
 ```
 
-内容包括：
+Inhalt umfasst:
 
-- 当前抽奖状态（已结束 / 进行中）
-- 抽奖描述
-- 奖品列表
-- 中奖人
+- Aktueller Lotterie-Status (abgeschlossen / läuft)
+- Lotteriebeschreibung
+- Preisliste
+- Gewinner
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r detail <抽奖编号>
+/r detail <Lotterie-Nummer>
 
-/抽奖详情 <抽奖编号>
+/Lotteriedetails <Lotterie-Nummer>
 ```
