@@ -1,5 +1,5 @@
 ---
-description: 使用参数创建抽奖
+description: Verwenden Sie Parameter, um ein Gewinnspiel zu erstellen
 ---
 
-# 使用参数创建抽奖
+# Verwenden Sie Parameter, um ein Gewinnspiel zu erstellen
