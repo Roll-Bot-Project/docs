@@ -1,23 +1,23 @@
 ---
-description: 退出指定的抽奖
+description: Exit selected prizes
 ---
 
-# 退出抽奖
+# Exit Award
 
 ```
-/roll quit <抽奖编号>
+/roll quit <Pick-up number>
 ```
 
-## 权限
+## Permissions
 
-要退出一个抽奖，你必须为指定抽奖的 [roll-member.md](../permission/roll-member.md "mention")
+To quit a draw you must specify the [roll-member.md](../permission/roll-member.md "mention")
 
-## 本地化 & 别称
+## Localization & Alias
 
-该指令也可使用如下方式触发
+This command can also be triggered by
 
 ```
-/r quit <抽奖编号>
+/r quit <Pick-up Number >
 
-/退出抽奖 <抽奖编号>
+/Exit Pickup Award <Pick-up Number>
 ```
