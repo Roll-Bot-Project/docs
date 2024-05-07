@@ -1,43 +1,43 @@
 ---
-description: 频道时区决定了频道内所有用户与 Roll Bot 交互时使用的时区
+description: Der Kanal-Zeitzone bestimmt die Zeitzone, die von allen Benutzern im Kanal verwendet wird, wenn sie mit Roll Bot interagieren
 ---
 
-# 频道时区
+# Kanal-Zeitzone
 
-> 偏移量是时区与 UTC 标准时间的差距，格式为 +时:分:秒 或 -时:分:秒
+> Die Verschiebung ist der Unterschied zwischen der Zeitzone und der UTC-Standardzeit, im Format +Stunden:Minuten:Sekunden oder -Stunden:Minuten:Sekunden
 >
-> 例如 `+5` 或 `-9:30`
+> Zum Beispiel `+5` oder `-9:30`
 
 ```
-/roll time -c [偏移量]
+/roll time -c [Verschiebung]
 ```
 
-偏移量不是必填的，留空将返回频道当前设置的偏移量
+Die Verschiebung ist optional und wenn sie leer gelassen wird, wird die aktuelle Verschiebung des Kanals zurückgegeben
 
-请注意，由于 `-` 开头的偏移量将被识别为参数，因此请使用 `" "` 包裹你的偏移量
+Bitte beachten Sie, dass eine Verschiebung, die mit `-` beginnt, als Argument erkannt wird, daher verwenden Sie bitte `" "` um Ihre Verschiebung zu umschließen
 
-例如：
+Zum Beispiel:
 
 ```
 /roll time -c "-7"
 ```
 
-## 优先级
+## Priorität
 
-[channel-timezone.md](channel-timezone.md "mention") > [user-timezone.md](user-timezone.md "mention") > [默认时区](../configuration/basic.md#defaulttimeoffset)
+[channel-timezone.md](channel-timezone.md "Erwähnung") > [user-timezone.md](user-timezone.md "Erwähnung") > [Standardzeitzone](../configuration/basic.md#defaulttimeoffset)
 
-你可以在设置中调整 `i18n.output` 项以修改这一顺序
+Sie können den `i18n.output`-Parameter in den Einstellungen ändern, um diese Reihenfolge anzupassen
 
-## 权限
+## Berechtigung
 
-要修改频道时区，你必须为 [bot-admin.md](../permission/bot-admin.md "mention") 或 [channel-admin.md](../permission/channel-admin.md "mention")
+Um die Kanal-Zeitzone zu ändern, müssen Sie [bot-admin.md](../permission/bot-admin.md "Erwähnung") oder [channel-admin.md](../permission/channel-admin.md "Erwähnung") sein
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r time -c [偏移量]
+/r time -c [Verschiebung]
 
-/时区 -c [偏移量]
+/Zeitzone -c [Verschiebung]
 ```
