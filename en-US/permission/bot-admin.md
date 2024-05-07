@@ -1,5 +1,5 @@
 ---
-description: Roll Bot 的管理者
+description: Manager of Roll Bot
 ---
 
-# Bot管理员
+# Bot Admin
