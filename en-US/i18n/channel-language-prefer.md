@@ -1,33 +1,33 @@
 ---
-description: 频道语言偏好决定了频道内所有用户与 Roll Bot 交互时使用的语言
+description: Channel language preferences determine the language in which all users in the channel interact with Roll Bot
 ---
 
-# 频道语言偏好
+# Channel language preferences
 
-> Roll Bot 目前支持的语言包括： `zh-CN` `en-US` de-DE
+> Current language by Roll Bot includes： `en-US` `en-US` de-DE
 
 ```
-/roll locale -c [语言偏好]
+/roll locale - c [语言偏好]
 ```
 
-语言偏好不是必填的，留空将返回群组当前设置的语言偏好
+Language preferences are not required. Leave empty to return the language preferences currently set by the group
 
-## 优先级
+## Priority
 
-[channel-language-prefer.md](channel-language-prefer.md "mention") > [user-language-prefer.md](user-language-prefer.md "mention") > 默认语言偏好
+[channel-language-prefer.md](channel-language-preference.md "mention") > [user-language-prefer.md](user-language-preference.md "mention") > Default Language Preferences
 
-你可以在设置中调整 `i18n.output` 项以修改这一顺序
+You can adjust the `i18n.output` entry in the settings to change this order
 
-## 权限
+## Permissions
 
-要修改频道语言偏好，你必须为 [bot-admin.md](../permission/bot-admin.md "mention") 或 [channel-admin.md](../permission/channel-admin.md "mention")
+To modify channel language preferences, you must be [bot-admin.md](../permission/bot-admin.md "mention") or [channel-admin.md](../permission/channel-admin.md "mention")
 
-## 本地化 & 别称
+## Localization & Alias
 
-该指令也可使用如下方式触发
+This command can also be triggered by
 
 ```
 /r locale -c [语言偏好]
 
-/语言 -c [语言偏好]
+/Language-c [语言偏好]
 ```
