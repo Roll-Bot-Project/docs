@@ -1,26 +1,26 @@
 ---
-description: 手动进行开奖
+description: Manuelle Ziehung durchführen
 ---
 
-# 手动开奖
+# Manuelle Ziehung
 
 ```
 /roll end [抽奖编号]
-或
+oder
 /roll draw [抽奖编号]
 ```
 
-> 抽奖编号不是必填的，留空将交互式地手动开奖
+> Die Ziehungsnummer ist nicht obligatorisch und kann leer gelassen werden, um die Ziehung interaktiv manuell durchzuführen
 
-## 权限
+## Berechtigung
 
-要手动开奖，你必须为 [roll-creator.md](../permission/roll-creator.md "mention") 或 [bot-admin.md](../permission/bot-admin.md "mention")
+Um manuell zu ziehen, müssen Sie [roll-creator.md](../permission/roll-creator.md "mention") oder [bot-admin.md](../permission/bot-admin.md "mention") sein
 
-如果在设置中启用了 `allowGuildAdminEnd` 项，则抽奖范围内的 [channel-admin.md](../permission/channel-admin.md "mention") 也可以进行手动开奖操作
+Wenn die Option `allowGuildAdminEnd` in den Einstellungen aktiviert ist, können auch [channel-admin.md](../permission/channel-admin.md "mention") im Bereich der Ziehung manuelle Ziehungen durchführen
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
 /r end [抽奖编号]
