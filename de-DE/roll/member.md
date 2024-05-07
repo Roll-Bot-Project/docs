@@ -1,19 +1,19 @@
 ---
-description: 查询指定抽奖的参与成员
+description: Abfragen der Teilnehmer für eine bestimmte Verlosung
 ---
 
-# 查询成员列表
+# Abfragen der Mitgliederliste
 
 ```
-/roll member <抽奖编号>
+/roll Mitglied <Verlosungsnummer>
 ```
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r member <抽奖编号>
+/r Mitglied <Verlosungsnummer>
 
-/抽奖成员 <抽奖编号>
+/Verlosungsmitglied <Verlosungsnummer>
 ```
