@@ -1,9 +1,9 @@
 ---
-description: 为指定抽奖应用提醒
+description: Reminder for the Pickup App
 ---
 
-# 为抽奖应用提醒
+# Reminder for Pickup App
 
 ```
-/roll remind apply <抽奖编号> <提醒编号1> [提醒编号2] ...
+/roll remind apply <Pick-up number> <Reminder 1> [提醒编号2]...
 ```
