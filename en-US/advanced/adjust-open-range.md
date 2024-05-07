@@ -1,13 +1,13 @@
 ---
-description: 让抽奖对多个频道开放
+description: Make the draw open to multiple channels
 ---
 
-# 修改抽奖的开放范围
+# Modify the open range of prizes
 
-对于 qq 之外的平台，抽奖默认的开放范围可能不足以满足实际要求，你可以通过
+For platforms other than qq the default open range for the drawing of rewards may not be sufficient to meet actual requirements, you can pass through
 
 ```
-/roll edit -r <范围>
+/roll edit -r <range>
 ```
 
-修改抽奖开放的
+Edit Pickup Open
