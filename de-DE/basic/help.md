@@ -1,19 +1,19 @@
 ---
-description: 显示帮助信息
+description: Zeige Hilfsmenü
 ---
 
-# 帮助
+# Hilfe
 
 ```
 /roll help
 ```
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
 /r help
 
-/抽奖帮助
+/Lotterie Hilfe
 ```
