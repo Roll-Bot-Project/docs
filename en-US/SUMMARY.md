@@ -3,12 +3,12 @@
 - [Roll Bot](README.md)
 - [开始之前](before-start.md)
 
-## 基本指令 <a href="#basic" id="basic"></a>
+## Basic Directive <a href="#basic" id="basic"></a>
 
 - [查看帮助](basic/help.md)
 - [获取频道id](basic/get-channel-id.md)
 
-## 抽奖 <a href="#roll" id="roll"></a>
+## Award <a href="#roll" id="roll"></a>
 
 - [创建抽奖](roll/add.md)
 - [删除抽奖](roll/delete.md)
@@ -19,37 +19,37 @@
 - [查询抽奖详情](roll/detail.md)
 - [查询成员列表](roll/member.md)
 
-## 提醒 <a href="#remind" id="remind"></a>
+## Reminder <a href="#remind" id="remind"></a>
 
 - [简介](remind/overview.md)
-- [创建提醒](remind/add.md)
-- [为抽奖应用提醒](remind/apply.md)
-- [删除提醒](remind/delete.md)
-- [查询提醒列表](remind/list.md)
-- [查询抽奖启用的提醒](remind/query-active-remind.md)
+- [创建提醒](reind/add.md)
+- [为抽奖应用提醒](reind/apply.md)
+- [删除提醒](reind/delete.md)
+- [查询提醒列表](remoind/list.md)
+- [查询抽奖启用的提醒](reind/query-active-remoind.md)
 
-## 国际化 <a href="#i18n" id="i18n"></a>
+## Internationalization <a href="#i18n" id="i18n"></a>
 
 - [用户时区](i18n/user-timezone.md)
-- [用户语言偏好](i18n/user-language-prefer.md)
+- [用户语言偏好](i18n/user-language-preference.md)
 - [频道时区](i18n/channel-timezone.md)
-- [频道语言偏好](i18n/channel-language-prefer.md)
+- [频道语言偏好](i18n/channel-language-preference.md)
 
-## 高级 <a href="#advanced" id="advanced"></a>
+## Advanced <a href="#advanced" id="advanced"></a>
 
 - [编辑抽奖](advanced/edit-roll.md)
 - [使用参数创建抽奖](advanced/add-by-option.md)
 - [加入口令](advanced/join-key.md)
 - [修改抽奖的开放范围](advanced/adjust-open-range.md)
 
-## 配置 <a href="#configuration" id="configuration"></a>
+## Configure <a href="#configuration" id="configuration"></a>
 
 - [全局设置](configuration/global.md)
 - [基本设置](configuration/basic.md)
 - [权限设置](configuration/permission.md)
-- [提醒设置](configuration/remind.md)
+- [提醒设置](configuration/remoind.md)
 
-## 权限 <a href="#permission" id="permission"></a>
+## Permissions <a href="#permission" id="permission"></a>
 
 - [Bot管理员](permission/bot-admin.md)
 - [频道管理员](permission/channel-admin.md)
