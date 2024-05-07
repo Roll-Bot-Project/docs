@@ -1,11 +1,11 @@
 ---
-description: 对已经创建的抽奖进行编辑
+description: Bearbeiten Sie das bereits erstellte Gewinnspiel
 ---
 
-# 编辑抽奖
+# Gewinnspiel bearbeiten
 
 ```
-/roll edit <抽奖编号> [-r --range] [--]
+/roll bearbeiten <Gewinnspielnummer> [-r --Bereich] [--]
 ```
 
-使用参数编辑抽奖的具体项
+Verwenden Sie Parameter, um die spezifischen Elemente des Gewinnspiels zu bearbeiten
