@@ -1,19 +1,19 @@
 ---
-description: 手动或交互式地删除一个提醒器
+description: Manuell oder interaktiv einen Erinnerungslöschers löschen
 ---
 
-# 删除提醒器
+# Erinnerungslöscher löschen
 
-> 如果你想删除抽奖内的提醒，请参阅：[为抽奖禁用提醒器](disable.md)
-
-```
-/remind delete [提醒器编号1] [提醒器编号2] ...
-```
-
-## 本地化 & 别称
-
-该指令也可使用如下方式触发
+> Wenn Sie Erinnerungen in einer Verlosung löschen möchten, siehe: [Deaktivieren von Erinnerungslöschern für Verlosungen](disable.md)
 
 ```
-/rd delete <抽奖编号> <提醒器编号1> [提醒器编号2] ...
+/remind delete [Erinnerungslöschernummer1] [Erinnerungslöschernummer2] ...
+```
+
+## Lokalisierung & Alias
+
+Dieser Befehl kann auch wie folgt ausgelöst werden
+
+```
+/rd delete <Verlosungsnummer> <Erinnerungslöschernummer1> [Erinnerungslöschernummer2] ...
 ```
