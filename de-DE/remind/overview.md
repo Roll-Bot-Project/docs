@@ -4,27 +4,27 @@ description: Verwenden Sie Erinnerungen, um über Lotteriebenachrichtigungen inf
 
 # Einführung
 
-Roll Bot 通过 **提醒器** 提供提醒功能。提醒器是一个提醒的时间模板，它指定了发送提醒消息的具体时间或时间模式，例如：
+Roll Bot durch Erinnerungsroboter bietet Erinnerungsfunktionen an.Ein Erinnerungsroboter ist eine Zeitvorlage für Erinnerungen, die die genaue Zeit oder Zeitmuster für das Senden von Erinnerungsnachrichten angibt, beispielsweise:
 
-- 在 **6月14日 22:30** 进行提醒（定时提醒器）
-- 在 **抽奖结束前 45 分钟** 进行提醒（结束前提醒器）
-- **每天 23:00** 进行一次提醒（间隔提醒器）
-- **每2小时** 进行一次提醒（间隔提醒器）
+- Erinnerung am **14. Juni um 22:30 Uhr** (Zeitgesteuerter Erinnerungsroboter)
+- Erinnerung **45 Minuten vor dem Ende der Verlosung** (Ende-Erinnerungsroboter)
+- Jeden Tag um **23:00 Uhr** eine Erinnerung (Intervall-Erinnerungsroboter)
+- Alle **2 Stunden** eine Erinnerung (Intervall-Erinnerungsroboter)
 
-通过创建提醒器并将其应用于抽奖，Roll Bot 可以自动提醒用户参与抽奖。
+Durch das Erstellen von Erinnerungsrobotern und deren Anwendung auf Verlosungen kann Roll Bot Benutzer automatisch zur Teilnahme an der Verlosung erinnern.
 
 ## Standardbenachrichtigung für Lotterie
 
-创建抽奖时，将根据设置中 `remind.defaultReminders` 项为其启用默认的提醒器。
+Beim Erstellen einer Verlosungen wird standardmäßig der Erinnerungsroboter gemäß der Einstellung 'remind.defaultReminders' aktiviert.
 
 ## Bereich für die Benachrichtigungsbereitstellung
 
-提醒消息的推送范围默认与抽奖开放范围相同，且会随抽奖开放范围同步变化。
+Die standardmäßige Push-Bereich der Erinnerungsnachrichten entspricht dem Öffnungsbereich der Verlosung und ändert sich synchron mit dem Öffnungsbereich der Verlosung.
 
-你可以[自行指定提醒消息的推送范围](../advanced/edit-roll.md)，指定后该提醒的范围将不再动态同步。
+Sie können den Push-Bereich der Erinnerungsnachrichten[manuell festlegen](../advanced/edit-roll.md). Nach Festlegung des Bereichs wird dieser nicht mehr dynamisch synchronisiert.
 
-请注意，提醒消息仅能在其抽奖的开放范围内发送。
+Bitte beachten Sie, dass Erinnerungsnachrichten nur innerhalb des Öffnungsbereichs der Verlosung gesendet werden können.
 
-## 提醒器的可见范围
+## Sichtbarkeitsbereich des Erinnerungsroboters
 
-为了避免过多信息干扰，提醒器创建后，你只能查询到你自己创建的提醒器。
+Um zu viele Informationen zu vermeiden, können Sie nach dem Erstellen des Erinnerungsroboters nur die von Ihnen erstellten Erinnerungsroboter abfragen.
