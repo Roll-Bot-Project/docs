@@ -10,6 +10,7 @@
 
 ## Verlosung <a href="#roll" id="roll"></a>
 
+- [简介](roll/overview.md)
 - [Verlosung erstellen](roll/add.md)
 - [Verlosung löschen](roll/delete.md)
 - [Manuelle Auslosung](roll/manual-drawing.md)
@@ -18,15 +19,16 @@
 - [Verlosungsliste abfragen](roll/list.md)
 - [Verlosungsdetails abfragen](roll/detail.md)
 - [Mitgliederliste abfragen](roll/member.md)
+- [查询启用的提醒](roll/remind.md)
 
 ## Erinnerung <a href="#remind" id="remind"></a>
 
 - [Übersicht](remind/overview.md)
-- [Erinnerung erstellen](remind/add.md)
-- [Erinnerung für Verlosungsanwendung](remind/apply.md)
-- [Erinnerung löschen](remind/delete.md)
-- [Erinnerungsliste abfragen](remind/list.md)
-- [Aktive Erinnerung für Verlosung abfragen](remind/query-active-remind.md)
+- [创建提醒器](remind/add.md)
+- [为抽奖启用提醒器](remind/enable.md)
+- [为抽奖禁用提醒器](remind/disable.md)
+- [删除提醒器](remind/delete.md)
+- [查询提醒器列表](remind/list.md)
 
 ## Internationalisierung <a href="#i18n" id="i18n"></a>
 
@@ -38,9 +40,6 @@
 ## Fortgeschritten <a href="#advanced" id="advanced"></a>
 
 - [Verlosung bearbeiten](advanced/edit-roll.md)
-- [Verlosung mit Optionen erstellen](advanced/add-by-option.md)
-- [加入口令](fortgeschritten/join-key.md)
-- [修改抽奖的开放范围](fortgeschritten/adjust-open-range.md)
 
 ## Konfiguration <a href="#configuration" id="configuration"></a>
 
