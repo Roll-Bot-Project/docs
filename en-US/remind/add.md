@@ -2,20 +2,32 @@
 description: Create an interactive reminder
 ---
 
-# Create Reminder
+# Create Alarm
 
 ```
-/roll remind ad [--range]
+/remind ad
 ```
 
-> To specify range manually, see the alarm range
+## Create Item
 
-## Specify alarm range manually
+### Reminder Type
 
-When creating a alarm, you can specify the alarm range using the ``-r <`channel id`> parameter``
+#### Timed reminders
 
-Usage：
+Reminder at specified time
+
+#### Alert before end
+
+Notify at the specified time before the end of the drawing
+
+#### Reminder interval
+
+Notify after each time interval
+
+## Localization & Alias
+
+This command can also be triggered by
 
 ```
-/roll remand add 0435 -r [1001,1002,1003]
+/ard add
 ```
