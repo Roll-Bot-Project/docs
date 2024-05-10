@@ -8,7 +8,7 @@ description: Interaktive Erstellung einer Verlosung
 /roll hinzufügen
 ```
 
-> 如果你想通过私聊创建抽奖以隐藏创建的过程（比如避免刷屏或隐藏加入口令），请参阅：[#chou-jiang-de-kai-fang-fan-wei](overview.md#chou-jiang-de-kai-fang-fan-wei "mention")
+> Wenn Sie den Vorgang der Verlosungserstellung durch private Nachricht verbergen möchten (zum Beispiel, um Spam zu vermeiden oder das Hinzufügen eines Passworts zu verstecken), beachten Sie dies: [#chou-jiang-de-kai-fang-fan-wei](overview.md#chou-jiang-de-kai-fang-fan-wei "mention")
 
 ## Schnelle Erstellung
 
