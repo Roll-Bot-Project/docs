@@ -8,7 +8,7 @@ description: Interaktive Erstellung einer Verlosung
 /roll hinzufügen
 ```
 
-> Sie können auch Parameter verwenden, um alle Informationen in einem Befehl einzugeben, siehe [add-by-option.md](../advanced/add-by-option.md "mention")
+> 如果你想通过私聊创建抽奖以隐藏创建的过程（比如避免刷屏或隐藏加入口令），请参阅：[#chou-jiang-de-kai-fang-fan-wei](overview.md#chou-jiang-de-kai-fang-fan-wei "mention")
 
 ## Schnelle Erstellung
 
