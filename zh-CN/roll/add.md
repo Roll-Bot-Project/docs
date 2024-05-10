@@ -8,7 +8,7 @@ description: 交互式地创建一个抽奖
 /roll add
 ```
 
-> 你也可以使用参数在一条命令内填写所有内容，详见 [add-by-option.md](../advanced/add-by-option.md "mention")
+> 如果你想通过私聊创建抽奖以隐藏创建的过程（比如避免刷屏或隐藏加入口令），请参阅：[#chou-jiang-de-kai-fang-fan-wei](overview.md#chou-jiang-de-kai-fang-fan-wei "mention")
 
 ## 快捷创建
 
