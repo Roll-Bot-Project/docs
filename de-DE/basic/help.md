@@ -2,7 +2,7 @@
 description: Zeige Hilfsmenü
 ---
 
-# Hilfe
+# Hilfe anzeigen
 
 ```
 /roll help
@@ -10,7 +10,7 @@ description: Zeige Hilfsmenü
 
 ## Lokalisierung & Alias
 
-Dieser Befehl kann auch wie folgt ausgelöst werden
+Dieser Befehl kann auch wie folgt ausgelöst werden:
 
 ```
 /r help
