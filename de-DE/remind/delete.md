@@ -1,9 +1,19 @@
 ---
-description: Manuell oder interaktiv eine Erinnerung löschen
+description: 手动或交互式地删除一个提醒器
 ---
 
-# Erinnerung löschen
+# 删除提醒器
+
+> 如果你想删除抽奖内的提醒，请参阅：[为抽奖禁用提醒器](disable.md)
 
 ```
-/roll remind delete [Erinnerungsnummer1] [Erinnerungsnummer2] ...
+/remind delete [提醒器编号1] [提醒器编号2] ...
+```
+
+## 本地化 & 别称
+
+该指令也可使用如下方式触发
+
+```
+/rd delete <抽奖编号> <提醒器编号1> [提醒器编号2] ...
 ```
