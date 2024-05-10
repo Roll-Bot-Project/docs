@@ -8,7 +8,7 @@ description: Interactive creation of a drawing
 /roll add
 ```
 
-> 如果你想通过私聊创建抽奖以隐藏创建的过程（比如避免刷屏或隐藏加入口令），请参阅：[#chou-jiang-de-kai-fang-fan-wei](overview.md#chou-jiang-de-kai-fang-fan-wei "mention")
+> If you want to create a private chat to hide the creation process (e.g. avoid brush screens or hide joining passwords), see：[#chou-jiang-de-kai-fang-fan-wei](overview.md#chou-jiang-de-kai-fang-fan-wei "mention")
 
 ## Quick Create
 
