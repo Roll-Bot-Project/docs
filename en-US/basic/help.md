@@ -2,7 +2,7 @@
 description: Show Help Info
 ---
 
-# Help
+# View Help
 
 ```
 /roll help
@@ -10,7 +10,7 @@ description: Show Help Info
 
 ## Localization & Alias
 
-This command can also be triggered by
+This command can also be triggered by：
 
 ```
 /r help
