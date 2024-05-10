@@ -1,5 +1,5 @@
 ---
-description: Roll Bot ist ein Multiplattform-Roboter, der eine Lotteriefunktion bietet.本页将提供一些有用的建议或解释，帮助你更好的使用 Roll Bot。
+description: Roll Bot ist ein Multiplattform-Roboter, der eine Lotteriefunktion bietet.Diese Seite bietet Ihnen einige nützliche Ratschläge oder Erläuterungen, um Ihnen zu helfen, den Roll Bot besser zu nutzen.
 layout:
   title:
     visible: true
@@ -15,9 +15,9 @@ layout:
 
 # Vor dem Start
 
-## 指令太长？
+## Ist der Befehl zu lang?
 
-大部分指令都具有一个或多个别称，你可以在指令页面的 **本地化 & 别称** 栏中找到它们。例如，指令开头的 `/roll` 都可以替换为更简短的 `/r` ，而 `/remind` 可以替换为 `/rd`。大部分指令还提供了多种语言的别称。
+Die meisten Befehle haben einen oder mehrere Aliasnamen, die Sie in der **Lokalisierung & Alias** Spalte der Befehlsseite finden können.Zum Beispiel kann das `/roll` am Anfang eines Befehls durch das kürzere `/r` ersetzt werden, und `/remind` kann durch `/rd` ersetzt werden.Die meisten Befehle haben auch Aliasnamen in verschiedenen Sprachen.
 
 ## Internationalisierung
 
