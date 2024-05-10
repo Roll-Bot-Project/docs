@@ -1,5 +1,5 @@
 ---
-description: Roll Bot is a multi-platform robot that offers a draw feature.This page will provide some useful suggestions or explanations to help you better use Roll Bot
+description: Roll Bot is a multi-platform robot that offers a draw feature.本页将提供一些有用的建议或解释，帮助你更好的使用 Roll Bot。
 layout:
   title:
     visible: true
@@ -14,6 +14,10 @@ layout:
 ---
 
 # Before Start
+
+## 指令太长？
+
+大部分指令都具有一个或多个别称，你可以在指令页面的 **本地化 & 别称** 栏中找到它们。例如，指令开头的 `/roll` 都可以替换为更简短的 `/r` ，而 `/remind` 可以替换为 `/rd`。大部分指令还提供了多种语言的别称。
 
 ## Internationalization
 
