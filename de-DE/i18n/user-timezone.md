@@ -14,14 +14,6 @@ description: Benutzerzeitzone entscheidet über die lokale Zeit, die beim Intera
 
 Der Versatz ist optional und wird leer gelassen, um Ihren aktuellen Versatz zurückzugeben
 
-Bitte beachten Sie, dass eine Verschiebung, die mit `-` beginnt, als Argument erkannt wird, daher verwenden Sie bitte `" "` um Ihre Verschiebung zu umschließen
-
-Zum Beispiel:
-
-```
-/roll time "-7"
-```
-
 ## Priorität
 
 [channel-timezone.md](channel-timezone.md "Erwähnung") > [user-timezone.md](user-timezone.md "Erwähnung") > [Standardzeitzone](../configuration/basic.md#defaulttimeoffset)
