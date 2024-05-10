@@ -14,14 +14,6 @@ description: Der Kanal-Zeitzone bestimmt die Zeitzone, die von allen Benutzern i
 
 Die Verschiebung ist optional und wenn sie leer gelassen wird, wird die aktuelle Verschiebung des Kanals zurückgegeben
 
-Bitte beachten Sie, dass eine Verschiebung, die mit `-` beginnt, als Argument erkannt wird, daher verwenden Sie bitte `" "` um Ihre Verschiebung zu umschließen
-
-Zum Beispiel:
-
-```
-/roll time -c "-7"
-```
-
 ## Priorität
 
 [channel-timezone.md](channel-timezone.md "Erwähnung") > [user-timezone.md](user-timezone.md "Erwähnung") > [Standardzeitzone](../configuration/basic.md#defaulttimeoffset)
