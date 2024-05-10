@@ -8,7 +8,7 @@ description: Treten Sie dem angegebenen Gewinnspiel bei
 /roll join <Gewinnspielnummer>
 ```
 
-> 你也可以通过直接发送加入口令来加入一个抽奖，详见 [#chou-jiang-de-jia-ru-kou-ling](overview.md#chou-jiang-de-jia-ru-kou-ling "mention")
+> Du kannst auch an einer Verlosung teilnehmen, indem du direkt den Beitrittscode sendest, siehe [#chou-jiang-de-jia-ru-kou-ling](overview.md#chou-jiang-de-jia-ru-kou-ling "mention")
 
 ## Berechtigung
 
