@@ -1,21 +1,33 @@
 ---
-description: Interaktive Erstellung einer Erinnerung
+description: 交互式地创建一个提醒器
 ---
 
-# Erinnerung erstellen
+# 创建提醒器
 
 ```
-/roll remind add [--range]
+/remind add
 ```
 
-> Um den Bereich manuell festzulegen, siehe Erinnerungsbereich
+## 创建项
 
-## Manuelle Festlegung des Erinnerungsbereichs
+### 提醒器类型
 
-Bei der Erstellung einer Erinnerung können Sie den Bereich mit dem Parameter `-r <Kanal-ID>` festlegen
+#### 定时提醒
 
-Anwendung:
+在指定时间进行提醒
+
+#### 结束前提醒
+
+在抽奖结束前的指定时间进行提醒
+
+#### 间隔提醒
+
+在每个时间间隔后进行提醒
+
+## 本地化 & 别称
+
+该指令也可使用如下方式触发
 
 ```
-/roll remind add 0435 -r [1001,1002,1003]
+/rd add
 ```
