@@ -14,14 +14,6 @@ description: The user time zone determines the local time to use when users inte
 
 Offset is not required. Leave empty to return the offset you currently set
 
-Note that since the offset at the beginning of the `-` will be identified as an argument, use the `" "` package for your offset
-
-e.g.：
-
-```
-/roll time "-7"
-```
-
 ## Priority
 
 [channel-timezone.md](channel-timezone.md "mention") > [user-timezone.md](user-timezone.md "mention") > [默认时区](../configuration/basic.md#defaulttimeoffset)
