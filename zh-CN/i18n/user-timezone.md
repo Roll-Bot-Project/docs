@@ -14,14 +14,6 @@ description: 用户时区决定了用户与 Roll Bot 交互时使用的本地时
 
 偏移量不是必填的，留空将返回你当前设置的偏移量
 
-请注意，由于 `-` 开头的偏移量将被识别为参数，因此请使用 `" "` 包裹你的偏移量
-
-例如：
-
-```
-/roll time "-7"
-```
-
 ## 优先级
 
 [channel-timezone.md](channel-timezone.md "mention") > [user-timezone.md](user-timezone.md "mention") > [默认时区](../configuration/basic.md#defaulttimeoffset)
