@@ -10,7 +10,7 @@
 
 ## Verlosung <a href="#roll" id="roll"></a>
 
-- [简介](roll/overview.md)
+- [Einführung](roll/overview.md)
 - [Verlosung erstellen](roll/add.md)
 - [Verlosung löschen](roll/delete.md)
 - [Manuelle Auslosung](roll/manual-drawing.md)
@@ -19,16 +19,16 @@
 - [Verlosungsliste abfragen](roll/list.md)
 - [Verlosungsdetails abfragen](roll/detail.md)
 - [Mitgliederliste abfragen](roll/member.md)
-- [查询启用的提醒](roll/remind.md)
+- [Überprüfen Sie aktivierte Erinnerung](roll/remind.md)
 
 ## Erinnerung <a href="#remind" id="remind"></a>
 
 - [Übersicht](remind/overview.md)
-- [创建提醒器](remind/add.md)
-- [为抽奖启用提醒器](remind/enable.md)
-- [为抽奖禁用提醒器](remind/disable.md)
-- [删除提醒器](remind/delete.md)
-- [查询提醒器列表](remind/list.md)
+- [Erstellen Sie einen Erinnerungsschalter](remind/add.md)
+- [Aktivieren Sie den Erinnerungsschalter für die Verlosung](remind/enable.md)
+- [Deaktivieren Sie den Erinnerungsschalter für die Verlosung](remind/disable.md)
+- [Löschen Sie den Erinnerungsschalter](remind/delete.md)
+- [Überprüfen Sie die Liste der Erinnerungsschalter](remind/list.md)
 
 ## Internationalisierung <a href="#i18n" id="i18n"></a>
 
