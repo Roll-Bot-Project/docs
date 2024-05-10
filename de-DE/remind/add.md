@@ -1,33 +1,33 @@
 ---
-description: 交互式地创建一个提醒器
+description: Interaktive Erstellung eines Erinnerungsmachers
 ---
 
-# 创建提醒器
+# Erstellen eines Erinnerungsmachers
 
 ```
-/remind add
+/remind hinzufügen
 ```
 
-## 创建项
+## Erstellungsgegenstand
 
-### 提醒器类型
+### Erinnerungsmacher Typ
 
-#### 定时提醒
+#### Zeitgesteuerte Benachrichtigung
 
-在指定时间进行提醒
+Benachrichtigung zu einem bestimmten Zeitpunkt
 
-#### 结束前提醒
+#### Benachrichtigung vor dem Ende
 
-在抽奖结束前的指定时间进行提醒
+Benachrichtigung zu einem bestimmten Zeitpunkt vor dem Ende der Lotterie
 
-#### 间隔提醒
+#### Intervallbenachrichtigung
 
-在每个时间间隔后进行提醒
+Benachrichtigung nach jedem Zeitintervall
 
-## 本地化 & 别称
+## Lokalisierung & Alias
 
-该指令也可使用如下方式触发
+Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/rd add
+/rd hinzufügen
 ```
