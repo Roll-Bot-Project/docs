@@ -4,6 +4,6 @@ description: Setzen Sie die Standardbenachrichtigung für die Lotterie
 
 # Erinnerungseinstellungen
 
-## defaultReminders
+## Standarderinnerungen
 
-默认为每个新建抽奖启用的提醒器
+Standardmäßig aktiviert Erinnerungen für jede neue Verlosung
