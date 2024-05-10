@@ -10,6 +10,7 @@
 
 ## Award <a href="#roll" id="roll"></a>
 
+- [简介](roll/overview.md)
 - [创建抽奖](roll/add.md)
 - [删除抽奖](roll/delete.md)
 - [手动开奖](roll/manual-drawing.md)
@@ -18,15 +19,16 @@
 - [查询抽奖列表](roll/list.md)
 - [查询抽奖详情](roll/detail.md)
 - [查询成员列表](roll/member.md)
+- [查询启用的提醒](roll/remoind.md)
 
 ## Reminder <a href="#remind" id="remind"></a>
 
 - [简介](remind/overview.md)
-- [创建提醒](reind/add.md)
-- [为抽奖应用提醒](reind/apply.md)
-- [删除提醒](reind/delete.md)
-- [查询提醒列表](remoind/list.md)
-- [查询抽奖启用的提醒](reind/query-active-remoind.md)
+- [创建提醒器](reind/add.md)
+- [为抽奖启用提醒器](reind/enable.md)
+- [为抽奖禁用提醒器](reind/disable.md)
+- [删除提醒器](reind/delete.md)
+- [查询提醒器列表](remoind/list.md)
 
 ## Internationalization <a href="#i18n" id="i18n"></a>
 
@@ -38,9 +40,6 @@
 ## Advanced <a href="#advanced" id="advanced"></a>
 
 - [编辑抽奖](advanced/edit-roll.md)
-- [使用参数创建抽奖](advanced/add-by-option.md)
-- [加入口令](advanced/join-key.md)
-- [修改抽奖的开放范围](advanced/adjust-open-range.md)
 
 ## Configure <a href="#configuration" id="configuration"></a>
 
