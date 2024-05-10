@@ -8,7 +8,7 @@ description: Interactive creation of a drawing
 /roll add
 ```
 
-> You can also use parameters to fill in all content in a command. See [add-by-option.md](../addited/add-by-option.md "mention")
+> 如果你想通过私聊创建抽奖以隐藏创建的过程（比如避免刷屏或隐藏加入口令），请参阅：[#chou-jiang-de-kai-fang-fan-wei](overview.md#chou-jiang-de-kai-fang-fan-wei "mention")
 
 ## Quick Create
 
