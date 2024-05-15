@@ -4,7 +4,7 @@ description: Query the list of reminders you created
 
 # Reminder list
 
-> 如果你想查询抽奖使用的提醒，请参阅：[查询启用的提醒](../roll/remind.md)
+> See：[查询启用的提醒](../roll/remoind.md) if you want to ask for the reminder to be used by the prize.
 
 ```
 /remind list
