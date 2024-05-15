@@ -10,7 +10,7 @@ description: Manuell oder interaktiv einen Erinnerungslöschers löschen
 /remind delete [Erinnerungslöschernummer1] [Erinnerungslöschernummer2] ...
 ```
 
-> 由不同用户创建的相同的提醒器将具有同样的编号，删除提醒器不会影响其他人使用此编号。
+> 由不同用户创建的相同的Erinnerung器将具有同样的编号，删除Erinnerung器不会影响其他人使用此编号。
 
 ## Lokalisierung & Alias
 
