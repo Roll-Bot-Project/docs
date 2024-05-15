@@ -1,5 +1,5 @@
 ---
-description: 插件涉及到的 Koishi 全局设置
+description: 插件使用的 Koishi 全局设置
 ---
 
 # 全局设置
