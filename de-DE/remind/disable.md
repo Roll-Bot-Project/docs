@@ -10,9 +10,9 @@ description: Für die spezifische Verlosung den Erinnerungsdienst deaktivieren
 
 Sie können mehrere Erinnerungsdienste auf einmal deaktivieren, indem Sie die Erinnerungsdienstnummern mit Leerzeichen trennen.
 
-## 权限
+## Berechtigung
 
-要为抽奖禁用提醒器，你必须为 [roll-creator.md](../permission/roll-creator.md "mention") 或 [bot-admin.md](../permission/bot-admin.md "mention")
+Um den Erinnerungsdienst für die Verlosung zu deaktivieren, müssen Sie [roll-creator.md](../permission/roll-creator.md "mention") oder [bot-admin.md](../permission/bot-admin.md "mention")
 
 ## Lokalisierung & Alias
 
