@@ -1,5 +1,5 @@
 ---
-description: Plugin involves Koishi global settings
+description: Global Koishi settings for plugins
 ---
 
 # Global settings
