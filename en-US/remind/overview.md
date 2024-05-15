@@ -13,21 +13,21 @@ Roll Bot provides alarm features via **Reminder**Reminder is a reminder time tem
 
 By creating the alarm and applying it to the drawing of the award, Roll Bot can automatically remind users to participate in the drawing of the award.
 
-## 提醒器
+## Reminder
 
-提醒器用于保存提醒的模式，以便重复使用。
+The alarm is used to save the alarm mode in order to reuse.
 
-### 定时提醒器
+### Timed Alarm
 
-在指定时间提醒一次
+Remind once at a specified time
 
-### 结束前提醒器
+### Reminder Before End
 
-抽奖结束前一定时间提醒一次
+Remind once a time before the prize ends
 
-### 间隔提醒器
+### Reminder interval
 
-每隔一定时间提醒一次
+Reminder every time
 
 ## Default Reminder
 
