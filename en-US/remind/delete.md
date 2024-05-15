@@ -10,7 +10,7 @@ description: Manually or interactively delete a reminder
 /remand delete [提醒器编号1] [提醒器编号2]...
 ```
 
-> 由不同用户创建的相同的提醒器将具有同样的编号，删除提醒器不会影响其他人使用此编号。
+> The same alarm created by different users will have the same number. Deleting the alarm will not prevent others from using this number.
 
 ## Localization & Alias
 
