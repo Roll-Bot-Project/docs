@@ -13,6 +13,22 @@ Roll Bot durch Erinnerungsroboter bietet Erinnerungsfunktionen an.Ein Erinnerung
 
 Durch das Erstellen von Erinnerungsrobotern und deren Anwendung auf Verlosungen kann Roll Bot Benutzer automatisch zur Teilnahme an der Verlosung erinnern.
 
+## 提醒器
+
+提醒器用于保存提醒的模式，以便重复使用。
+
+### 定时提醒器
+
+在指定时间提醒一次
+
+### 结束前提醒器
+
+抽奖结束前一定时间提醒一次
+
+### 间隔提醒器
+
+每隔一定时间提醒一次
+
 ## Standardbenachrichtigung für Lotterie
 
 Beim Erstellen einer Verlosungen wird standardmäßig der Erinnerungsroboter gemäß der Einstellung 'remind.defaultReminders' aktiviert.
