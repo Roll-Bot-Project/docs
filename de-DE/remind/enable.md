@@ -10,9 +10,9 @@ description: Für die Verlosung Verlosungserinnerung aktivieren
 
 Sie können mehrere Erinnerungsgeräte gleichzeitig aktivieren, die Erinnerungsgerätenummern werden durch Leerzeichen getrennt.
 
-## 权限
+## Berechtigung
 
-要为抽奖启用提醒器，你必须为 [roll-creator.md](../permission/roll-creator.md "mention") 或 [bot-admin.md](../permission/bot-admin.md "mention")
+Um den Verlosungswecker zu aktivieren, müssen Sie [roll-creator.md](../permission/roll-creator.md "mention") oder [bot-admin.md](../permission/bot-admin.md "mention") haben
 
 ## Lokalisierung & Alias
 
