@@ -10,6 +10,8 @@ description: Manually or interactively delete a reminder
 /remand delete [提醒器编号1] [提醒器编号2]...
 ```
 
+> 由不同用户创建的相同的提醒器将具有同样的编号，删除提醒器不会影响其他人使用此编号。
+
 ## Localization & Alias
 
 This command can also be triggered by
