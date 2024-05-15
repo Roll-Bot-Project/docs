@@ -4,7 +4,7 @@ description: 查询你创建的 Erinnerung器列表
 
 # 查询 Erinnerung器列表
 
-> 如果你想查询抽奖使用的提醒，请参阅：[查询启用的提醒](../roll/remind.md)
+> Wenn Sie die Erinnerung für die Verlosung überprüfen möchten, lesen Sie bitte: [Überprüfen Sie die aktivierten Erinnerungen](../roll/remind.md)
 
 ```
 /remind list
