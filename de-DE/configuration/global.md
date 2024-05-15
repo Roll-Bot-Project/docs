@@ -1,5 +1,5 @@
 ---
-description: 插件使用的 Koishi 全局设置
+description: Koishi Global Einstellungen für Plugin Verwendung
 ---
 
 # Globale Einstellungen
