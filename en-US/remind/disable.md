@@ -10,7 +10,7 @@ description: Disable Reminder for Pickup
 
 You can disable multiple reminders at a time, separated by spaces.
 
-> 抽奖开奖后，将自动禁用所有提醒。
+> When the prize is opened, all reminders will be automatically disabled.
 
 ## Permissions
 
