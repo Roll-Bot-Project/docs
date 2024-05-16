@@ -1,10 +1,10 @@
 ---
-description: Manuell oder interaktiv einen Erinnerungslöschers löschen
+description: 手动删除提醒器
 ---
 
 # Erinnerungslöscher löschen
 
-> Wenn Sie Erinnerungen in einer Verlosung löschen möchten, siehe: [Deaktivieren von Erinnerungslöschern für Verlosungen](disable.md)
+> 删除提醒器的同时将禁用所有与其关联的提醒，如果你只想删除抽奖内的提醒，请参阅：[为抽奖禁用提醒器](disable.md)
 
 ```
 /remind delete [Erinnerungslöschernummer1] [Erinnerungslöschernummer2] ...
