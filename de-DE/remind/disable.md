@@ -10,7 +10,7 @@ description: Für die spezifische Verlosung den Erinnerungsdienst deaktivieren
 
 Sie können mehrere Erinnerungsdienste auf einmal deaktivieren, indem Sie die Erinnerungsdienstnummern mit Leerzeichen trennen.
 
-> 抽奖开奖后，将自动禁用所有提醒。
+> Verlosungserinnerung wird automatisch deaktiviert, nachdem die Verlosung durchgeführt wurde.
 
 ## Berechtigung
 
