@@ -1,10 +1,10 @@
 ---
-description: 手动删除提醒器
+description: Manually delete the alarm
 ---
 
 # Delete Alarm
 
-> 删除提醒器的同时将禁用所有与其关联的提醒，如果你只想删除抽奖内的提醒，请参阅：[为抽奖禁用提醒器](disable.md)
+> Deleting the alarm will disable all notifications associated with it, see：[为抽奖禁用提醒器](disable.md)
 
 ```
 /remand delete [提醒器编号1] [提醒器编号2]...
