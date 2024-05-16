@@ -1,10 +1,10 @@
 ---
-description: Manually or interactively delete a reminder
+description: 手动删除提醒器
 ---
 
 # Delete Alarm
 
-> See：[为抽奖禁用提醒器](disable.md) if you want to delete the reminder from the drawing
+> 删除提醒器的同时将禁用所有与其关联的提醒，如果你只想删除抽奖内的提醒，请参阅：[为抽奖禁用提醒器](disable.md)
 
 ```
 /remand delete [提醒器编号1] [提醒器编号2]...
