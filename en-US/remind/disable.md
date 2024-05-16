@@ -10,6 +10,8 @@ description: Disable Reminder for Pickup
 
 You can disable multiple reminders at a time, separated by spaces.
 
+> 抽奖开奖后，将自动禁用所有提醒。
+
 ## Permissions
 
 To disable the Reminder you must be [roll-creator.md](../permission/roll-creator.md "mention") or [bot-admin.md](../permission/bot-admin.md "mention")
