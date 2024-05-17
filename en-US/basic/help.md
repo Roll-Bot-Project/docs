@@ -14,6 +14,7 @@ This command can also be triggered by：
 
 ```
 /r help
+/r h
 
-/ draw help
+/ Pick help
 ```
