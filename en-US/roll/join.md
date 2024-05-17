@@ -19,7 +19,8 @@ In order to join a draw you must use this directive in the channel within which 
 This command can also be triggered by
 
 ```
-/r join <Pick-up Number>
+/r join <Pick-up #>
+/r j <Pick-up #>
 
-/ Add Pumping<Pick-up Number>
+/ Join Pick-up <Pick-up number>
 ```
