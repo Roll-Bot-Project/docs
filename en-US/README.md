@@ -19,7 +19,7 @@ layout:
 
 # Roll Bot
 
-If you are a user, see：[基本指令](brow-reference) and [开始之前](for-start.md)
+If you are a user, see: [Basic Commands](broken-reference) and [Before Start](before-start.md)
 
 If you are a Bot administrator, see：[配置说明](broken-reference)
 
