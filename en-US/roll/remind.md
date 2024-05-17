@@ -15,7 +15,8 @@ description: Query for reminders to enable the Pickup
 This command can also be triggered by
 
 ```
-/r remind <draw number>
+/r remind <drawing number>
+/r 3rd <drawing number>
 
-/ draw reminder <draw number>
+/ Reminder <drawing number>
 ```
