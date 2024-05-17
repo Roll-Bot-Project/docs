@@ -18,4 +18,7 @@ Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
 /rd list
+/rd ls
+
+/Erinnerungsinstrument Liste
 ```
