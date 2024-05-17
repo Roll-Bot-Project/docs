@@ -14,6 +14,7 @@ This command can also be triggered by
 
 ```
 /r member <draw number>
+/r mem <drawing number>
 
 / drawing member<drawing number>
 ```
