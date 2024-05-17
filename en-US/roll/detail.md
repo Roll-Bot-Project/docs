@@ -20,7 +20,8 @@ Content includes：
 This command can also be triggered by
 
 ```
-/r detail <drawing number>
+/r detail <Pick-up number>
+/r d <Pick-up number>
 
-/ drawing details <drawing number>
+/ Pick-up details <Pick-up number>
 ```
