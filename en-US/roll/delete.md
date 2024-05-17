@@ -22,6 +22,7 @@ This command can also be triggered by
 
 ```
 /r delete [抽奖编号]
+/r rm [抽奖编号]
 
-/ Delete drawing [抽奖编号]
+/delete drawing [抽奖编号]
 ```
