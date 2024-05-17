@@ -17,8 +17,8 @@ Um an einer Lotterie teilzunehmen, müssen Sie als [roll-member.md](../permissio
 Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r quit <抽奖编号>
-/r q <抽奖编号>
+/r quit <Verlosung Nummer>
+/r q <Verlosung Nummer>
 
-/退出抽奖 <抽奖编号>
+/Verlassen Sie die Verlosung <Verlosung Nummer>
 ```
