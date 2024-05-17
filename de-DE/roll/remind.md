@@ -15,7 +15,8 @@ description: Abfragen der aktivierten Erinnerungen für die bestimmte Verlosung
 Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r remind <Verlosungsnummer>
+/r remind <抽奖编号>
+/r rd <抽奖编号>
 
-/Verlosungs-Reminder <Verlosungsnummer>
+/抽奖提醒 <抽奖编号>
 ```
