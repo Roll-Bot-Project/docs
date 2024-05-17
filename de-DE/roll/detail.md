@@ -20,7 +20,8 @@ Inhalt umfasst:
 Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r detail <Lotterie-Nummer>
+/r detail <抽奖编号>
+/r d <抽奖编号>
 
-/Lotteriedetails <Lotterie-Nummer>
+/抽奖详情 <抽奖编号>
 ```
