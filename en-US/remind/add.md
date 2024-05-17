@@ -14,4 +14,6 @@ This command can also be triggered by
 
 ```
 /ard add
+
+/create alarm
 ```
