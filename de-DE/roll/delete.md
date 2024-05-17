@@ -21,8 +21,5 @@ Wenn die Option `allowGuildAdminDelete` in den Einstellungen aktiviert ist, kön
 Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r delete [抽奖编号]
-/r rm [抽奖编号]
-
-/删除抽奖 [抽奖编号]
+/r delete [Verlosung] /r rm [Verlosung] /n/n/Verlosung [Verlosung]
 ```
