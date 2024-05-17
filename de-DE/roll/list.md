@@ -15,9 +15,9 @@ Die Kanal-ID ist optional. Wenn sie leer gelassen wird, wird die Verlosung im ak
 Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r list [Kanal-ID]
+/r list [频道id]
+/r ls [频道id]
 
-/Verlosungsliste [Kanal-ID]
-
-/WhatToDraw [Kanal-ID]
+/抽奖列表 [频道id]
+/在抽啥 [频道id]
 ```
