@@ -4,7 +4,7 @@ coverY: 319
 layout:
   cover:
     visible: true
-    size: Full
+    size: full
   title:
     visible: true
   description:
@@ -19,17 +19,17 @@ layout:
 
 # Roll Bot
 
-If you are a user, see：
+If you are a user, see:
 
-- [开始之前](before-start.md)
-- [抽奖](roll/overview.md)
-- [提醒](remind/overview.md)&#x20
-- [国际化](i18n/overview.md)
+- [Before Start](before-start.md)
+- [Roll](roll/overview.md)
+- [Remind](remind/overview.md)
+- [Internationalization](i18n/overview.md)
 
-If you are a Bot administrator, see：
+If you are a Bot administrator, see:
 
-- [配置](configuration/overview.md)
+- [Configuration](configuration/overview.md)
 
-Read the [English guide](https://app.gitbook.com/s/DkD9Dx744ASTSUTbEpy/).
+阅读 [中文指南](https://docs.logthm.com/)。
 
-Lesen Sie das [Benutzerhandbuch](https://app.gitbook.com/s/BOxpAN52iSWXtD7dIBMl/).
+Lesen Sie das [Benutzerhandbuch](https://app.gitbook.com/s/BOxpAN52iSWXtD7dIbMl/).
