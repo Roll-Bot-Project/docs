@@ -19,8 +19,8 @@ Um an einem Gewinnspiel teilzunehmen, müssen Sie diesen Befehl in einem Kanal v
 Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r join <抽奖编号>
-/r j <抽奖编号>
+/r join <Verlosung Nummer>
+/r j <Verlosung Nummer>
 
-/加入抽奖 <抽奖编号>
+/加入抽奖 <Verlosung Nummer>
 ```
