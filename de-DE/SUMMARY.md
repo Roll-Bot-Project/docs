@@ -32,7 +32,7 @@
 
 ## Internationalisierung <a href="#i18n" id="i18n"></a>
 
-- [简介](i18n/overview.md)
+- [Übersicht](i18n/overview.md)
 - [Benutzerzeitzone](i18n/user-timezone.md)
 - [Benutzerspracheinstellung](i18n/user-language-prefer.md)
 - [Kanalzeitzone](i18n/channel-timezone.md)
@@ -44,7 +44,7 @@
 
 ## Konfiguration <a href="#configuration" id="configuration"></a>
 
-- [简介](configuration/overview.md)
+- [Übersicht](configuration/overview.md)
 - [全局设置](konfiguration/global.md)
 - [基本设置](konfiguration/basic.md)
 - [权限设置](konfiguration/permission.md)
