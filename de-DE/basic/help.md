@@ -13,7 +13,8 @@ description: Zeige Hilfsmenü
 Dieser Befehl kann auch wie folgt ausgelöst werden:
 
 ```
-/r help
+/r Hilfe
+/r h
 
-/Lotterie Hilfe
+/Verlosungshilfe
 ```
