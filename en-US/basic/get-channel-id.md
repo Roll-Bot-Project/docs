@@ -17,9 +17,8 @@ For non-qq group users, you need to use this command to get channel id
 This command can also be triggered by
 
 ```
-/roll ch
-
 /r channel
-
 /r ch
+
+/channel id
 ```
