@@ -1,5 +1,5 @@
 ---
-description: Vielseitiger, plattformübergreifender Lotterie-Roboter
+description: Vielseitiger, plattformübergreifender Verlosungsroboter.
 coverY: 319
 layout:
   cover:
@@ -19,8 +19,17 @@ layout:
 
 # Roll Bot
 
-Wenn Sie ein Benutzer sind, lesen Sie: [Grundbefehle](broken-reference) und [Vor dem Start](before-start.md)
+Wenn Sie ein Benutzer sind, lesen Sie bitte:
 
-Wenn Sie ein Bot-Administrator sind, lesen Sie: [Konfigurationsanleitung](broken-reference)
+- [Vor dem Start](before-start.md)
+- [Verlosung](roll/overview.md)
+- [Erinnerung](remind/overview.md)&#x20
+- [Internationalisierung](i18n/overview.md)
 
-Lesen Sie den [Englischen Leitfaden](https://app.gitbook.com/o/wtIZDsJW8xeq9lb44x4x/s/DkD9Dx744ASTSUTtbEpy/)
+Wenn Sie ein Bot-Administrator sind, lesen Sie bitte:
+
+- [Konfiguration](configuration/overview.md)
+
+Lesen Sie den [Englischsprachigen Leitfaden](https://app.gitbook.com/s/DkD9Dx744ASTSUTtbEpy/).
+
+Lesen Sie das [Benutzerhandbuch](https://app.gitbook.com/s/BOxpAN52iSWXtD7dIbMl/).
