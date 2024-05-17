@@ -1,5 +1,5 @@
 ---
-description: 多功能，多平台支持的抽奖机器人。
+description: Vielseitiger, plattformübergreifender Verlosungsroboter.
 coverY: 319
 layout:
   cover:
@@ -19,17 +19,17 @@ layout:
 
 # Roll Bot
 
-如果你是用户，请参阅：
+Wenn Sie ein Benutzer sind, lesen Sie bitte:
 
-- [开始之前](before-start.md)
-- [抽奖](roll/overview.md)
-- [提醒](remind/overview.md)&#x20
-- [国际化](i18n/overview.md)
+- [Vor dem Start](before-start.md)
+- [Verlosung](roll/overview.md)
+- [Erinnerung](remind/overview.md)&#x20
+- [Internationalisierung](i18n/overview.md)
 
-如果你是Bot管理员，请参阅：
+Wenn Sie ein Bot-Administrator sind, lesen Sie bitte:
 
-- [配置](configuration/overview.md)
+- [Konfiguration](configuration/overview.md)
 
-Read the [English guide](https://app.gitbook.com/s/DkD9Dx744ASTSUTtbEpy/).
+Lesen Sie den [Englischsprachigen Leitfaden](https://app.gitbook.com/s/DkD9Dx744ASTSUTtbEpy/).
 
 Lesen Sie das [Benutzerhandbuch](https://app.gitbook.com/s/BOxpAN52iSWXtD7dIbMl/).
