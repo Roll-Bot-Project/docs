@@ -16,8 +16,8 @@ This command can also be triggered by
 
 ```
 /r list [频道id]
+/r girls [频道id]
 
-/ Pick-up list [频道id]
-
+/ Lump list [频道id]
 / Pick [频道id]
 ```
