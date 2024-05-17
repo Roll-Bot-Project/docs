@@ -24,7 +24,6 @@ This command can also be triggered by
 
 ```
 /r end [抽奖编号]
-
 /r draw [抽奖编号]
 
 /award [抽奖编号]
