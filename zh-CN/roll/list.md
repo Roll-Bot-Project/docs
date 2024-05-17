@@ -16,8 +16,8 @@ description: 查询指定频道内的抽奖
 
 ```
 /r list [频道id]
+/r ls [频道id]
 
 /抽奖列表 [频道id]
-
 /在抽啥 [频道id]
 ```

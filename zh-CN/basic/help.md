@@ -14,6 +14,7 @@ description: 显示帮助信息
 
 ```
 /r help
+/r h
 
 /抽奖帮助
 ```

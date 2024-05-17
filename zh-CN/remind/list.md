@@ -18,4 +18,7 @@ description: 查询你创建的提醒器列表
 
 ```
 /rd list
+/rd ls
+
+/提醒器列表
 ```

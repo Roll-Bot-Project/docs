@@ -17,9 +17,8 @@ description: 获取当前频道的频道id
 该指令也可使用如下方式触发
 
 ```
-/roll ch
-
 /r channel
-
 /r ch
+
+/频道id
 ```
