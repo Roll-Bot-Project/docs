@@ -13,8 +13,8 @@ description: Abfragen der Teilnehmer für eine bestimmte Verlosung
 Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r member <抽奖编号>
-/r mem <抽奖编号>
+/r Mitglied <Verlosungsnummer>
+/r mem <Verlosungsnummer>
 
-/抽奖成员 <抽奖编号>
+/Verlosungsmitglied <Verlosungsnummer>
 ```
