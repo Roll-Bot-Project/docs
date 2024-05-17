@@ -17,9 +17,8 @@ Für Nicht-QQ-Gruppenbenutzer müssen Sie diesen Befehl verwenden, um die Kanal-
 Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/roll ch
-
 /r Kanal
-
 /r ch
+
+/频道id
 ```
