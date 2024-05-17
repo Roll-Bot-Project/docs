@@ -21,7 +21,8 @@ Wenn die Option `allowGuildAdminDelete` in den Einstellungen aktiviert ist, kön
 Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r löschen [Gewinnspielnummer]
+/r delete [抽奖编号]
+/r rm [抽奖编号]
 
-/Gewinnspiel löschen [Gewinnspielnummer]
+/删除抽奖 [抽奖编号]
 ```
