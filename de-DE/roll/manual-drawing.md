@@ -23,8 +23,8 @@ Wenn die Option `allowGuildAdminEnd` in den Einstellungen aktiviert ist, können
 Dieser Befehl kann auch wie folgt ausgelöst werden
 
 ```
-/r end [抽奖编号]
-/r draw [抽奖编号]
+/r end [Verlosung编号]
+/r draw [Verlosung编号]
 
-/开奖 [抽奖编号]
+/开奖 [Verlosung编号]
 ```
