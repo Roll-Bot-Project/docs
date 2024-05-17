@@ -17,7 +17,8 @@ To quit a draw you must specify the [roll-member.md](../permission/roll-member.m
 This command can also be triggered by
 
 ```
-/r quit <Pick-up Number >
+/r quit <Pick-up #>
+/r q <Pick-up #>
 
-/Exit Pickup Award <Pick-up Number>
+/ Exit Pick-up #>
 ```
