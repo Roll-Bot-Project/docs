@@ -18,4 +18,7 @@ This command can also be triggered by
 
 ```
 /ard list
+/ard girls
+
+/alarm list
 ```
