@@ -1,24 +1,24 @@
 ---
-description: Gets the channel id of the current channel
+description: Get the channel ID of the current channel
 ---
 
-# Get channel id
+# Get Channel ID
 
 ```
 /roll channel
 ```
 
-For qq groups, channel id is the same as group number
+For qq guilds, channel ID is the same as guild number.
 
-For non-qq group users, you need to use this command to get channel id
+For non-qq guild users, you need to use this command to get channel ID.
 
 ## Localization & Alias
 
-This command can also be triggered by
+This command can also be triggered by:
 
 ```
 /r channel
 /r ch
 
-/channel id
+/频道id
 ```
