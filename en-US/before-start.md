@@ -15,16 +15,16 @@ layout:
 
 # Before Start
 
-## Instruction too long?
+## Commands too long?
 
-Most commands have one or more individual names, and you can find them in the **Localization & Alias** bar of the command page.For example, the beginning of the command can be replaced by a shorter `/r` and a `/remoind` can be replaced by `/rd`.Most of the directives also provide an alias for multilingualism.
+Most commands have one or more alias, and you can find them in the **Localization & Alias** part of the command page.For example, '/roll' can be replaced by shorter `/r` and `/remoind` can be replaced by `/rd`.Most of the commands also provide alias for multilingualism.
 
 ## Internationalization
 
-Maybe you are using another time zone or another language, don't worry!You can[设置你使用的时区](i18n/user-timezone.md) and[语言偏好](i18n/user-language-preference.md)
+Maybe you are using another time zone or another language, don't worry!You can [set your time zone](i18n/user-timezone.md) and [language prefer](i18n/user-language-preference.md).
 
-## I am a qq group user, what is the channel?
+## I am a qq guild user, what is the channel?
 
-For qq, a group contains only one channel and can therefore be considered equivalent.The channel id is the same as the group number at this time.
+For qq, a guild contains only one channel and can therefore be considered equivalent.The channel id is the same as the guild number at this time.
 
-But for some platforms (e.g. discord), there may be multiple channels within a group.So you may need[通过指令获取你当前的频道id](basic/get-channel-id.md).
+But for some platforms (e.g. discord), there may be multiple channels within a guild.So you may need to [get current channel ID](basic/get-channel-id.md).
