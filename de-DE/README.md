@@ -4,7 +4,7 @@ coverY: 319
 layout:
   cover:
     visible: true
-    size: voll
+    size: full
   title:
     visible: true
   description:
@@ -23,7 +23,7 @@ Wenn Sie ein Benutzer sind, lesen Sie bitte:
 
 - [Vor dem Start](before-start.md)
 - [Verlosung](roll/overview.md)
-- [Erinnerung](remind/overview.md)&#x20
+- [Erinnerung](remind/overview.md)
 - [Internationalisierung](i18n/overview.md)
 
 Wenn Sie ein Bot-Administrator sind, lesen Sie bitte:
