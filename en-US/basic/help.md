@@ -1,8 +1,8 @@
 ---
-description: Show Help Info
+description: Display Help Info
 ---
 
-# View Help
+# Help
 
 ```
 /roll help
@@ -10,11 +10,11 @@ description: Show Help Info
 
 ## Localization & Alias
 
-This command can also be triggered by：
+This command can also be triggered by:
 
 ```
 /r help
 /r h
 
-/ Pick help
+/抽奖帮助
 ```
