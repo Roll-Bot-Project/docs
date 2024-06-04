@@ -18,6 +18,14 @@ Die Sprachpräferenz ist optional. Wenn sie leer gelassen wird, wird die aktuell
 
 Sie können den `i18n.output`-Parameter in den Einstellungen ändern, um diese Reihenfolge anzupassen
 
+## Reset Kanal Sprachpräferenzeinstellungen
+
+Du kannst `-d` Parameter im Befehl verwenden, um die Sprachpräferenzeinstellungen des aktuellen Kanals zurückzusetzen:
+
+```
+/roll locale -c -d
+```
+
 ## Berechtigung
 
 Um die Kanalsprachpräferenz zu ändern, müssen Sie [bot-admin.md](../permission/bot-admin.md "Erwähnung") oder [channel-admin.md](../permission/channel-admin.md "Erwähnung") sein
