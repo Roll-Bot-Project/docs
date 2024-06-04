@@ -20,6 +20,14 @@ Offset is not required. Leave empty to return the channel offset
 
 You can adjust the `i18n.output` entry in the settings to change this order
 
+## Reset channel time zone settings
+
+You can reset the time zone of the current channel using the `-d` parameter in the command setting：
+
+```
+/roll time -c -d
+```
+
 ## Permissions
 
 To modify the channel time zone, you must be [bot-admin.md](../permission/bot-admin.md "mention") or [channel-admin.md](../permission/channel-admin.md "mention")
