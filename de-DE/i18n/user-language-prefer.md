@@ -18,6 +18,14 @@ Die Benutzerpräferenzsprache ist optional; wenn sie leer gelassen wird, wird Ih
 
 Sie können den `i18n.output`-Parameter in den Einstellungen ändern, um diese Reihenfolge anzupassen
 
+## Zurücksetzen der Benutzervorlieben für Sprache
+
+Sie können Ihre Sprachvorlieben mit dem `-d` -Parameter in Befehlen zurücksetzen:
+
+```
+/roll locale -d
+```
+
 ## Lokalisierung & Alias
 
 Dieser Befehl kann auch wie folgt ausgelöst werden
