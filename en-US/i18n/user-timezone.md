@@ -20,6 +20,14 @@ Offset is not required. Leave empty to return the offset you currently set
 
 You can adjust the `i18n.output` entry in the settings to change this order
 
+## Reset User Time Zone Settings
+
+You can reset your time zone by using the `-d` parameter in the command setting：
+
+```
+/roll time -d
+```
+
 ## Localization & Alias
 
 This command can also be triggered by
