@@ -18,6 +18,14 @@ Language preferences are not required. Leave empty to return the language prefer
 
 You can adjust the `i18n.output` entry in the settings to change this order
 
+## Reset channel language preferences
+
+You can reset the language preferences of the current channel using the `-d` parameter in the command to：
+
+```
+/roll locale -c -d
+```
+
 ## Permissions
 
 To modify channel language preferences, you must be [bot-admin.md](../permission/bot-admin.md "mention") or [channel-admin.md](../permission/channel-admin.md "mention")
