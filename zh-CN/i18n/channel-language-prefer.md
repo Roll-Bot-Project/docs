@@ -18,6 +18,14 @@ description: 频道语言偏好决定了频道内所有用户与 Roll Bot 交互
 
 你可以在设置中调整 `i18n.output` 项以修改这一顺序
 
+## 重置频道语言偏好设置
+
+你可以在命令中使用 `-d` 参数重置当前频道的语言偏好设置：
+
+```
+/roll locale -c -d
+```
+
 ## 权限
 
 要修改频道语言偏好，你必须为 [bot-admin.md](../permission/bot-admin.md "mention") 或 [channel-admin.md](../permission/channel-admin.md "mention")

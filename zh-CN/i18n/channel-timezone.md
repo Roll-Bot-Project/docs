@@ -20,6 +20,14 @@ description: 频道时区决定了频道内所有用户与 Roll Bot 交互时使
 
 你可以在设置中调整 `i18n.output` 项以修改这一顺序
 
+## 重置频道时区设置
+
+你可以在命令中使用 `-d` 参数重置当前频道的时区设置：
+
+```
+/roll time -c -d
+```
+
 ## 权限
 
 要修改频道时区，你必须为 [bot-admin.md](../permission/bot-admin.md "mention") 或 [channel-admin.md](../permission/channel-admin.md "mention")
