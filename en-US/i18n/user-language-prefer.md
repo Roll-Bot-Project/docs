@@ -18,6 +18,14 @@ Language preferences are not required. Leave empty to return your current langua
 
 You can adjust the `i18n.output` entry in the settings to change this order
 
+## Reset user language preferences
+
+You can reset your language preferences： by using the `-d` parameter in the command
+
+```
+/roll locale -d
+```
+
 ## Localization & Alias
 
 This command can also be triggered by
