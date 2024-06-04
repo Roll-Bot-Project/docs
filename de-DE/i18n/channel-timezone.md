@@ -20,6 +20,14 @@ Die Verschiebung ist optional und wenn sie leer gelassen wird, wird die aktuelle
 
 Sie können den `i18n.output`-Parameter in den Einstellungen ändern, um diese Reihenfolge anzupassen
 
+## 重置Kanal时区设置
+
+你可以在命令中使用 `-d` Parameter重置当前Kanal的时区设置：
+
+```
+/roll time -c -d
+```
+
 ## Berechtigung
 
 Um die Kanal-Zeitzone zu ändern, müssen Sie [bot-admin.md](../permission/bot-admin.md "Erwähnung") oder [channel-admin.md](../permission/channel-admin.md "Erwähnung") sein
