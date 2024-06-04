@@ -20,6 +20,14 @@ Der Versatz ist optional und wird leer gelassen, um Ihren aktuellen Versatz zur�
 
 Sie können den `i18n.output`-Parameter in den Einstellungen ändern, um diese Reihenfolge anzupassen
 
+## Parameter zurücksetzen Nutzer Zeitzone Einstellungen
+
+Du kannst `-d` Parameter zum Zurücksetzen deiner Zeitzone Einstellungen im Befehl verwenden:
+
+```
+/roll Zeit -d
+```
+
 ## Lokalisierung & Alias
 
 Dieser Befehl kann auch wie folgt ausgelöst werden
