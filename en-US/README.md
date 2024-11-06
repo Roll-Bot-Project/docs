@@ -23,7 +23,7 @@ If you are a user, see:
 
 - [Before Start](before-start.md)
 - [Roll](roll/overview.md)
-- [Remind](remind/overview.md)
+- [提醒](remind/overview.md)
 - [Internationalization](i18n/overview.md)
 
 If you are a Bot administrator, see:
