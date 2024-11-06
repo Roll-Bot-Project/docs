@@ -32,6 +32,6 @@ layout:
 
 
 
-Read the [English guide](https://docs.logthm.com/roll-bot-project/v/en-us).
+Read the [English guide](https://app.gitbook.com/s/DkD9Dx744ASTSUTtbEpy/).
 
 Lesen Sie das [Benutzerhandbuch](https://app.gitbook.com/s/BOxpAN52iSWXtD7dIbMl/).
