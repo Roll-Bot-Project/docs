@@ -23,7 +23,7 @@ Wenn Sie ein Benutzer sind, lesen Sie bitte:
 
 - [Vor dem Start](before-start.md)
 - [Verlosung](roll/overview.md)
-- [Erinnerung](remind/overview.md)
+- [提醒](remind/overview.md)
 - [Internationalisierung](i18n/overview.md)
 
 Wenn Sie ein Bot-Administrator sind, lesen Sie bitte:
