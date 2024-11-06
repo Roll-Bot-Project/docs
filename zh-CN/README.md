@@ -23,7 +23,7 @@ layout:
 
 * [开始之前](before-start.md)
 * [抽奖](roll/overview.md)
-* [提醒](remind/overview.md)&#x20;
+* [提醒](remind/overview.md)
 * [国际化](i18n/overview.md)
 
 如果你是Bot管理员，请参阅：
@@ -32,6 +32,6 @@ layout:
 
 
 
-Read the [English guide](https://app.gitbook.com/s/DkD9Dx744ASTSUTtbEpy/).
+Read the [English guide](https://docs.logthm.com/roll-bot-project/v/en-us).
 
 Lesen Sie das [Benutzerhandbuch](https://app.gitbook.com/s/BOxpAN52iSWXtD7dIbMl/).
