@@ -5,15 +5,24 @@ description: 对已经创建的抽奖进行交互式编辑
 # 编辑抽奖
 
 ```
-/roll edit <抽奖编号> [参数]
-[-o --open-range]     修改开放范围
-[-r --remind-range]   修改提醒推送范围
-[-t --title]          修改标题
-[-d --description]    修改详细描述
-[-p --prize]          修改奖品
-[-a --auto-end]       修改自动开奖选项
-[-j --join-key]       修改加入口令
+/roll edit <抽奖编号>
 ```
 
+> 你可以在任何地方编辑你的抽奖，如果你希望跨平台使用，你应该先通过 `/bind` 指令绑定你的账户。
 
+## 权限
 
+要编辑一个抽奖，你必须为此抽奖的 [抽奖创建人](../permission/roll-creator.md)
+
+## 本地化 & 别称
+
+该指令也可使用如下方式触发
+
+```
+/r edit <抽奖编号>
+
+/编辑抽奖 <抽奖编号>
+```
+
+[\
+](https://docs.logthm.com/roll-bot-project/roll/add)
