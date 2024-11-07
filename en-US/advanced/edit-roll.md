@@ -5,12 +5,23 @@ description: Interactive editing of created prizes
 # Edit draw award
 
 ```
-/roll edit <draw number> [参数]
-[-o --open-range] modify open range
-[-r --remoind-range] change reminder range
-[--t --title] modify title
-[-d --description] modify description
-[-p --primze] modify prize
-[--auto-end] modify auto-start option
-[-j -join-key] change password
+/roll edit <抽奖编号>
 ```
+
+> 你可以在任何地方编辑你的抽奖，如果你希望跨平台使用，你应该先通过 `/bind` 指令绑定你的账户。
+
+## 权限
+
+要编辑一个抽奖，你必须为此抽奖的 [抽奖创建人](../permission/roll-creator.md)
+
+## 本地化 & 别称
+
+该指令也可使用如下方式触发
+
+```
+/r edit <抽奖编号>
+
+/编辑抽奖 <抽奖编号>
+```
+
+\
